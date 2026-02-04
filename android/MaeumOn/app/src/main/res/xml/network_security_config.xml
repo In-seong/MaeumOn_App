@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config >
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">moiliteasybase.mobiliteasy.co.kr</domain>
+        <domain includeSubdomains="true">gwangdong.mobiliteasy.co.kr</domain>
+        <domain includeSubdomains="true">lite.mobiliteasy.co.kr</domain>
+        <domain includeSubdomains="true">www.mobiliteasy.com</domain>
+        <domain includeSubdomains="true">www.mobiliteasy.co.kr</domain>
+        <domain includeSubdomains="true">www.shuttleasy.co.kr</domain>
+        <domain includeSubdomains="true">maps.daum-img.net</domain>
+        <domain includeSubdomains="true">html5test.com</domain>
+        <domain includeSubdomains="true">mobilehtml5.org</domain>
+    </domain-config>
+</network-security-config>

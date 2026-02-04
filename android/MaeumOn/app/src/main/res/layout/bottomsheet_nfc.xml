@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nfc_round">
+
+    <!-- 제목(상태) -->
+    <TextView
+        android:id="@+id/nfc_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="스캔 준비 완료"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- 안내 문구 -->
+    <TextView
+        android:id="@+id/nfc_notice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:text="탑승하는 노선은 NFC 태그를 스캔해 주세요."
+        android:textColor="#666666"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/nfc_title" />
+
+    <!-- 로딩 애니메이션 -->
+    <ImageView
+        android:id="@+id/nfc_scan_anim"
+        android:layout_width="248.54dp"
+        android:layout_height="108.16dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/description_nfc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/nfc_notice" />
+
+    <!-- 닫기 버튼 -->
+    <Button
+        android:id="@+id/nfc_btn_close_bottomsheet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="12.5dp"
+        android:paddingBottom="12.5dp"
+        android:layout_marginTop="38.5dp"
+        android:backgroundTint="#2196F3"
+        android:text="취소"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/nfc_scan_anim" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

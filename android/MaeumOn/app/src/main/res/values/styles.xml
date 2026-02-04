@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Regular -->
+    <style name="TextAppearance.Pretendard.400" parent="TextAppearance.AppCompat">
+        <item name="fontFamily">@font/pretendard_regular_font</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:letterSpacing">-0.03</item>
+    </style>
+
+    <!-- Mediumn -->
+    <style name="TextAppearance.Pretendard.500" parent="TextAppearance.AppCompat">
+        <item name="fontFamily">@font/pretendard_medium_font</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:letterSpacing">-0.03</item>
+    </style>
+
+    <!-- SemiBold -->
+    <style name="TextAppearance.Pretendard.600" parent="TextAppearance.AppCompat">
+        <item name="fontFamily">@font/pretendard_semi_bold_font</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:letterSpacing">-0.03</item>
+    </style>
+
+    <!-- Bold -->
+    <style name="TextAppearance.Pretendard.700" parent="TextAppearance.AppCompat">
+        <item name="fontFamily">@font/pretendard_bold_font</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:letterSpacing">-0.03</item>
+    </style>
+</resources>

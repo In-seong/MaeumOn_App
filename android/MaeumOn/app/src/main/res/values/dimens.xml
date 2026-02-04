@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Immutable Size -->
+    <dimen name="layout_toolbar_height">56dp</dimen>
+    <dimen name="margin_status_bar">30dp</dimen>
+    <dimen name="margin_status_bar_and_margin">46dp</dimen>
+    <dimen name="sum_toolbar_and_status_bar">86dp</dimen>
+
+    <dimen name="navigation_text_size">12dp</dimen>
+
+    <!-- Dialog -->
+    <dimen name="dialog_layout_padding">25dp</dimen>
+    <dimen name="dialog_title_text_size">20dp</dimen>
+    <dimen name="dialog_message_text_size">16dp</dimen>
+
+    <dimen name="dialog_button_text_size">16dp</dimen>
+
+    <!-- Driving -->
+    <dimen name="button_drive_end_text_size">19dp</dimen>
+</resources>

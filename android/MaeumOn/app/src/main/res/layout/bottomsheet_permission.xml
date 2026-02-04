@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/permission_bottomsheet"
+    android:elevation="2dp"
+    android:padding="20dp">
+
+    <!-- 안내 텍스트 -->
+    <TextView
+        android:id="@+id/permission_notice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="서비스 이용을 위해 권한을 허용해주세요."
+        android:textAppearance="@style/TextAppearance.Pretendard.600"
+        android:textColor="@color/text_primary"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- 필수 태그 -->
+    <TextView
+        android:id="@+id/permission_necessary_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:text="필수 접근 권한"
+        android:textAppearance="@style/TextAppearance.Pretendard.600"
+        android:textColor="@color/color_warning"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/permission_notice" />
+
+    <!-- 위치 권한 -->
+    <ImageView
+        android:id="@+id/permission_phone_icon"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="13dp"
+        android:contentDescription="전화 권한 아이콘"
+        android:src="@drawable/permission_phone_icon"
+        app:layout_constraintEnd_toStartOf="@id/permission_phone_icon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/permission_necessary_tag" />
+
+    <TextView
+        android:id="@+id/permission_phone_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="전화 권한"
+        android:textAppearance="@style/TextAppearance.Pretendard.600"
+        android:textColor="@color/text_primary"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@id/permission_phone_icon"
+        app:layout_constraintStart_toEndOf="@id/permission_phone_icon"
+        app:layout_constraintTop_toTopOf="@id/permission_phone_icon" />
+
+<!--    안내 텍스트 짤림 현상 해결하기 위해 아래와 같이 width를 0dp로 설정 -> 자동 줄바꿈-->
+    <TextView
+        android:id="@+id/permission_phone_description"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="6dp"
+        android:text="계정 생성 및 확인을 위해 사용자의 개인정보 (휴대폰번호)를 필수적으로 수집하고 있습니다. 동의하지 않거나 미개통 된 기기에서는 이용의 제한이 있을 수 있습니다."
+        android:textAppearance="@style/TextAppearance.Pretendard.500"
+        android:textColor="@color/text_secondary"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/permission_phone_icon" />
+
+    <!-- 위치 권한 -->
+    <ImageView
+        android:id="@+id/permission_location_icon"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="13dp"
+        android:contentDescription="위치 권한 아이콘"
+        android:src="@drawable/permission_location_icon"
+        app:layout_constraintEnd_toStartOf="@id/permission_location_tag"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/permission_phone_description" />
+
+    <TextView
+        android:id="@+id/permission_location_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="위치 권한"
+        android:textAppearance="@style/TextAppearance.Pretendard.600"
+        android:textColor="@color/text_primary"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@id/permission_location_icon"
+        app:layout_constraintStart_toEndOf="@id/permission_location_icon"
+        app:layout_constraintTop_toTopOf="@id/permission_location_icon" />
+
+<!--    안내 텍스트 짤림 현상 해결하기 위해 아래와 같이 width를 0dp로 설정 -> 자동 줄바꿈-->
+    <TextView
+        android:id="@+id/permission_location_description"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="6dp"
+        android:text="정류장을 자동으로 인식하기 위해 사용자의 위치권한이 필요합니다."
+        android:textAppearance="@style/TextAppearance.Pretendard.500"
+        android:textColor="@color/text_secondary"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/permission_location_icon" />
+
+    <!-- 블루투스 권한 -->
+    <ImageView
+        android:id="@+id/permission_ble_icon"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="17dp"
+        android:contentDescription="위치 권한 아이콘"
+        android:src="@drawable/permission_ble_icon"
+        app:layout_constraintEnd_toStartOf="@id/permission_ble_tag"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/permission_location_description" />
+
+    <TextView
+        android:id="@+id/permission_ble_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="블루투스 권한"
+        android:textAppearance="@style/TextAppearance.Pretendard.600"
+        android:textColor="@color/text_primary"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@id/permission_ble_icon"
+        app:layout_constraintStart_toEndOf="@id/permission_ble_icon"
+        app:layout_constraintTop_toTopOf="@id/permission_ble_icon" />
+
+    <TextView
+        android:id="@+id/permission_ble_description"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="6dp"
+        android:text="탑승 시 태그를 위해 블루투스 권한이 필요합니다. 동의 하지 않거나 블루투스가 꺼져 있으면 이용에 제한이 있을 수 있습니다."
+        android:textAppearance="@style/TextAppearance.Pretendard.500"
+        android:textColor="@color/text_secondary"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/permission_ble_icon" />
+
+    <!-- 카메라 권한 -->
+    <ImageView
+        android:id="@+id/permission_camera_icon"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="17dp"
+        android:contentDescription="카메라 권한 아이콘"
+        android:src="@drawable/permission_camera_icon"
+        app:layout_constraintEnd_toStartOf="@id/permission_camera_tag"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/permission_ble_description" />
+
+    <TextView
+        android:id="@+id/permission_camera_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="카메라 권한"
+        android:textAppearance="@style/TextAppearance.Pretendard.600"
+        android:textColor="@color/text_primary"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@id/permission_camera_icon"
+        app:layout_constraintStart_toEndOf="@id/permission_camera_icon"
+        app:layout_constraintTop_toTopOf="@id/permission_camera_icon" />
+
+    <TextView
+        android:id="@+id/permission_camera_description"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="6dp"
+        android:text="QR코드 인식을 위해 카메라 권한이 필요합니다."
+        android:textAppearance="@style/TextAppearance.Pretendard.500"
+        android:textColor="@color/text_secondary"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/permission_camera_icon" />
+
+    <!-- 선택 태그 -->
+    <TextView
+        android:id="@+id/permission_optional_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="선택 접근 권한"
+        android:textAppearance="@style/TextAppearance.Pretendard.600"
+        android:textColor="@color/color_primary"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/permission_camera_description" />
+
+    <!-- 알림 권한 -->
+    <ImageView
+        android:id="@+id/permission_notification_icon"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="17dp"
+        android:contentDescription="위치 권한 아이콘"
+        android:src="@drawable/permission_notification_icon"
+        app:layout_constraintEnd_toStartOf="@id/permission_notification_tag"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/permission_optional_tag" />
+
+    <TextView
+        android:id="@+id/permission_notification_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="알림 권한"
+        android:textAppearance="@style/TextAppearance.Pretendard.600"
+        android:textColor="@color/text_primary"
+        android:textSize="15sp"
+        app:layout_constraintStart_toEndOf="@id/permission_notification_icon"
+        app:layout_constraintTop_toBottomOf="@id/permission_notification_icon"
+        app:layout_constraintTop_toTopOf="@id/permission_notification_icon" />
+
+    <TextView
+        android:id="@+id/permission_notification_description"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="6dp"
+        android:text="버스 도착 알람 등을 위해 알람권한이 필요합니다."
+        android:textAppearance="@style/TextAppearance.Pretendard.500"
+        android:textColor="@color/text_secondary"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/permission_notification_icon" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/permission_setting_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="4dp"
+        android:background="@drawable/btn_round_15"
+        android:paddingTop="17dp"
+        android:paddingBottom="17dp"
+        android:text="권한 허용 후 계속하기"
+        android:textAppearance="@style/TextAppearance.Pretendard.600"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toTopOf="@id/permission_warning"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/permission_notification_description" />
+
+    <TextView
+        android:id="@+id/permission_warning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:text="필수 권한을 허용하지 않을 시 이용이 불가합니다."
+        android:textAppearance="@style/TextAppearance.Pretendard.400"
+        android:textColor="@color/text_primary"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/permission_setting_btn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

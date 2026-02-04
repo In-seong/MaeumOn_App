@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_background"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <ImageView
+        android:id="@+id/permission_dialog_icon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/custom_location_slash_fill" />
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/permission_dialog_title"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginTop="12dp"-->
+    <!--        android:text="인터넷 연결 필요"-->
+    <!--        android:textAppearance="@style/TextAppearance.Pretendard.600"-->
+    <!--        android:textColor="@color/text_primary"-->
+    <!--        android:textSize="18sp" />-->
+
+    <TextView
+        android:id="@+id/permission_dialog_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="앱을 사용하려면 인터넷 연결이 필요합니다."
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.Pretendard.400"
+        android:textColor="@color/text_primary"
+        android:textSize="14sp" />
+
+</LinearLayout>

@@ -1,0 +1,50 @@
+#---------------------------------------------------
+# 1. Android/Gradle Build Folders and Outputs
+#---------------------------------------------------
+
+# Standard build outputs for the main project
+# (Covers /android/build/ and /android/app/build/)
+/android/build/
+/app/build/
+
+# IDE/Gradle temporary files
+# Covers files like /android/local.properties and files under /android/gradle/
+local.properties
+.gradle/
+gradle-wrapper.jar
+
+# .idea/ folder and its contents
+# This is crucial as it ignores all IDE caches and local settings.
+# Covers /android/idea/ and /android/.idea/
+/.idea/
+/idea/
+
+#---------------------------------------------------
+# 2. Intermediate & Generated Files (As seen in screenshots)
+#---------------------------------------------------
+
+# All Intermediate files (Includes stripped native libs, assets, metadata)
+# Covers paths like /android/app/build/intermediates/...
+/app/build/intermediates/
+
+# All Generated source code (Data Binding, Manifest processing, etc.)
+# Covers paths like /android/app/build/generated/...
+/app/build/generated/
+
+# Logs and Reports
+# Covers paths like /android/build/reports/... and /android/build/outputs/logs/...
+/app/build/outputs/
+/android/build/outputs/
+/app/build/reports/
+/android/build/reports/
+
+# Temporary files and logs
+/app/build/tmp/
+/android/build/tmp/
+
+# Specific Gradle Cache Files (from the /android/gradle/8.13/ path in screenshots)
+# Includes .bin, .lock, .properties, executionHistory, etc.
+/android/gradle/
+
+# Problem Report
+/android/build/reports/problems/

@@ -1,0 +1,32 @@
+<resources>
+    <string name="description_splash_background">스플래시 화면 배경 이미지</string>
+    <string name="description_app_logo_horizontal">앱 로고(가로형)</string>
+    <string name="notice_splash">반드시 통근버스 탑승 전 앱을 실행해 주세요</string>
+
+    <string name="description_nfc">NFC 스캔 애니메이션</string>
+
+    <!--FCM-->
+    <string name="fcm_channel_id">myNotification</string>
+    <string name="fcm_channel_name_general">앱 주요 알림</string>
+    <string name="fcm_channel_description_general">서비스 공지, 업데이트 및 중요 정보에 대한 알림입니다.</string>
+
+    <string name="dialog_empty_phone_title">개통되지 않은 스마트폰에서는 동작하지 않습니다.</string>
+
+    <string name="dialog_button_exit">종료하기</string>
+
+    <!-- Number Check -->
+    <string name="number_check_send_success">인증번호 전송 중입니다.\n잠시후 문자가 도착합니다.</string>
+    <string name="number_check_send_over">금일 본인 인증 횟수가 초과 되었습니다.\n다음날 다시 시도해주세요.</string>
+    <string name="number_check_err_msg">*%s를 %s해 주세요.</string>
+    <string name="number_check_send">전송</string>
+    <string name="number_check_resend">재전송</string>
+    <string name="dialog_button_yes">확인</string>
+    <string name="dialog_button_no">취소</string>
+
+    <string name="dialog_phone_select_title">전화번호 선택</string>
+    <string name="dialog_phone_select_message_1">선택한 전화번호의 SIM이 제거되기 전까지 자동으로 해당 번호를 사용합니다.</string>
+    <string name="dialog_phone_select_message_2">변경을 원하실 경우 ‘설정 > 애플리케이션 > 모빌리티지 > 저장공간 > 데이터 삭제’ 후 다시 실행해 주시기 바랍니다.</string>
+
+
+    <string name="phone_country_code">+82</string>
+</resources>
