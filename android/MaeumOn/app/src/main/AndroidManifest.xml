@@ -51,7 +51,6 @@
         android:networkSecurityConfig="@xml/network_security_config"
         android:supportsRtl="true"
         android:theme="@style/Theme.MobiliteasyBase">
-        <!-- Firebase 나중에 추가
         <service
             android:name="com.spoon.maeumon.feature.fcm.MyFirebaseMessagingService"
             android:exported="false">
@@ -69,7 +68,6 @@
         <meta-data
             android:name="com.google.firebase.messaging.default_notification_channel_id"
             android:value="@string/fcm_channel_id" />
-        -->
 
         <activity
             android:name="com.spoon.maeumon.feature.splash.ui.SplashActivity"
@@ -95,6 +93,17 @@
         <activity
             android:name="com.spoon.maeumon.feature.qr.ui.QrActivity"
             android:launchMode="singleTop" />
+
+        <!-- 카메라 촬영 파일 공유용 FileProvider -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
     </application>
 
 </manifest>

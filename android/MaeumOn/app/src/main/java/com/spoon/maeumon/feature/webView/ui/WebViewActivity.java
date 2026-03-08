@@ -23,11 +23,14 @@ import android.net.Network;
 import android.net.NetworkCapabilities;
 import android.net.NetworkInfo;
 import android.net.Uri;
+import android.webkit.ValueCallback;
 import android.nfc.NfcAdapter;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
+import android.os.Environment;
+import android.provider.MediaStore;
 import android.provider.Settings;
 import android.util.Log;
 import android.view.KeyEvent;
@@ -51,6 +54,7 @@ import androidx.activity.result.ActivityResultLauncher;
 import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
+import androidx.core.content.FileProvider;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
@@ -82,8 +86,12 @@ import org.altbeacon.beacon.BeaconParser;
 import org.altbeacon.beacon.Identifier;
 import org.altbeacon.beacon.Region;
 
+import java.io.File;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
+import java.util.Locale;
 
 public class WebViewActivity extends BaseActivity {
    private static final String UUID = "e45c4963-5384-5856-a0ff-09f8a9901938";
@@ -110,6 +118,11 @@ public class WebViewActivity extends BaseActivity {
 
    private GeolocationPermissions.Callback geoCallback;  // JS가 위치 접근을 시도할 때 요청에 대한 응답을 반환할 수 있는 callback을 전달함
    private String geoOrigin;  // 어떤 도메인이 위치 권한을 요청했는지, 해당 페이지의 url
+
+   /* 파일 업로드 (WebView <input type="file">) */
+   private ValueCallback<Uri[]> fileUploadCallback;
+   private ActivityResultLauncher<Intent> fileChooserLauncher;
+   private Uri cameraPhotoUri; // 카메라 촬영 사진 URI
 
    /* QR 스캔 */
    private ActivityResultLauncher<Intent> qrActivityLauncher;  // QR 실행 결과
@@ -170,6 +183,7 @@ public class WebViewActivity extends BaseActivity {
 
       setUIInitial();
       setObserve();
+      setupFileChooserLauncher();
       setupQrActivityLauncher();
 
       setBeacon();
@@ -675,8 +689,12 @@ public class WebViewActivity extends BaseActivity {
       webSettings.setDomStorageEnabled(true);   // 웹사이트에서 데이터를 클라이언트에 저장할 수 있게 함
       webSettings.setLoadsImagesAutomatically(true);  // 웹페이지 로드 시 이미지 자동 로드
       webSettings.setGeolocationEnabled(true);  //웹 페이지에서 사용자의 위치 정보 접근 가능
+      /* 파일 접근 허용 (갤러리 등에서 선택한 파일을 WebView가 읽을 수 있도록) */
+      webSettings.setAllowFileAccess(true);
+      webSettings.setAllowContentAccess(true);
       /* 보안 네트워크 설정 */
-      webSettings.setCacheMode(WebSettings.LOAD_DEFAULT);   // 캐시 사용
+      // 개발 중에는 항상 서버에서 최신 로드, 배포 시 LOAD_DEFAULT로 변경
+      webSettings.setCacheMode(BuildConfig.DEBUG ? WebSettings.LOAD_NO_CACHE : WebSettings.LOAD_DEFAULT);
       webSettings.setMixedContentMode(WebSettings.MIXED_CONTENT_NEVER_ALLOW); // HTTPS만 허용
       /* 성능 */
       webView.setLayerType(View.LAYER_TYPE_HARDWARE, null);
@@ -685,6 +703,56 @@ public class WebViewActivity extends BaseActivity {
 
       /* 브라우저 */
       webView.setWebChromeClient(new WebChromeClient() {
+         // 파일 업로드 (<input type="file">) 처리
+         @Override
+         public boolean onShowFileChooser(WebView webView, ValueCallback<Uri[]> filePathCallback, FileChooserParams fileChooserParams) {
+            if (fileUploadCallback != null) {
+               fileUploadCallback.onReceiveValue(null);
+            }
+            fileUploadCallback = filePathCallback;
+
+            // 1) 갤러리/파일 선택 Intent
+            Intent contentIntent = new Intent(Intent.ACTION_GET_CONTENT);
+            contentIntent.addCategory(Intent.CATEGORY_OPENABLE);
+            contentIntent.setType("*/*");
+            contentIntent.putExtra(Intent.EXTRA_MIME_TYPES, new String[]{"image/*", "application/pdf"});
+            contentIntent.putExtra(Intent.EXTRA_ALLOW_MULTIPLE, true);
+
+            // 2) 카메라 촬영 Intent (FileProvider로 임시 파일 URI 생성)
+            Intent cameraIntent = null;
+            try {
+               cameraIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+               if (cameraIntent.resolveActivity(getPackageManager()) != null) {
+                  String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss", Locale.getDefault()).format(new Date());
+                  String fileName = "PHOTO_" + timeStamp + ".jpg";
+                  File photoFile = new File(getExternalCacheDir(), fileName);
+                  cameraPhotoUri = FileProvider.getUriForFile(
+                          WebViewActivity.this,
+                          getPackageName() + ".fileprovider",
+                          photoFile);
+                  cameraIntent.putExtra(MediaStore.EXTRA_OUTPUT, cameraPhotoUri);
+               }
+            } catch (Exception e) {
+               cameraIntent = null;
+               cameraPhotoUri = null;
+            }
+
+            // 3) Chooser에 카메라를 추가 Intent로 포함
+            Intent chooserIntent = Intent.createChooser(contentIntent, "파일 선택");
+            if (cameraIntent != null) {
+               chooserIntent.putExtra(Intent.EXTRA_INITIAL_INTENTS, new Intent[]{cameraIntent});
+            }
+
+            try {
+               fileChooserLauncher.launch(chooserIntent);
+            } catch (Exception e) {
+               fileUploadCallback = null;
+               cameraPhotoUri = null;
+               return false;
+            }
+            return true;
+         }
+
          // JS 위치 요청이 발생하면 호출됨
          @Override
          public void onGeolocationPermissionsShowPrompt(String origin, GeolocationPermissions.Callback callback) {
@@ -1081,6 +1149,46 @@ public class WebViewActivity extends BaseActivity {
       moveTaskToBack(true);
       finishAndRemoveTask();
       System.exit(0);
+   }
+
+   private void setupFileChooserLauncher() {
+      fileChooserLauncher = registerForActivityResult(
+              new ActivityResultContracts.StartActivityForResult(),
+              result -> {
+                 if (fileUploadCallback == null) return;
+
+                 if (result.getResultCode() == Activity.RESULT_OK) {
+                    Uri[] uris = null;
+                    Intent data = result.getData();
+
+                    if (data != null) {
+                       // 복수 파일 선택
+                       if (data.getClipData() != null) {
+                          int count = data.getClipData().getItemCount();
+                          uris = new Uri[count];
+                          for (int i = 0; i < count; i++) {
+                             uris[i] = data.getClipData().getItemAt(i).getUri();
+                          }
+                       }
+                       // 단일 파일 선택
+                       else if (data.getData() != null) {
+                          uris = new Uri[]{data.getData()};
+                       }
+                    }
+
+                    // 카메라 촬영: data가 null이지만 cameraPhotoUri에 사진 저장됨
+                    if (uris == null && cameraPhotoUri != null) {
+                       uris = new Uri[]{cameraPhotoUri};
+                    }
+
+                    fileUploadCallback.onReceiveValue(uris);
+                 } else {
+                    // 취소 시 null 전달 (안 하면 다음 클릭이 무시됨)
+                    fileUploadCallback.onReceiveValue(null);
+                 }
+                 fileUploadCallback = null;
+                 cameraPhotoUri = null;
+              });
    }
 
    private void setupQrActivityLauncher() {
