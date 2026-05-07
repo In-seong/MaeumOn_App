@@ -1,0 +1,33 @@
+# Xcode build outputs
+DerivedData/
+build/
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+
+# CocoaPods
+Pods/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+
+# Claude temp files
+.claude/
+
+# Archives
+*.xcarchive
+*.ipa
+
+# Backup files
+*.bak
+*~
+*copy-Info.plist

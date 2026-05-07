@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "MobiliteasyBase"
+rootProject.name = "MaeumOn"
 include(":app")
  

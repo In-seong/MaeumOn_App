@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "732407880819",
+    "project_id": "maeumon-7c14a",
+    "storage_bucket": "maeumon-7c14a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:732407880819:android:29e0e446fc54ccbd631e06",
+        "android_client_info": {
+          "package_name": "com.spoon.maeumon.agent"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDu0niYiRHp1OFYHtYS9X6JNQOeg5pnYVw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:732407880819:android:29e0e446fc54ccbd631e06",
+        "android_client_info": {
+          "package_name": "com.spoon.maeumon.agent.dev"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDu0niYiRHp1OFYHtYS9X6JNQOeg5pnYVw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

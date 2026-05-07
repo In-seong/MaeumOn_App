@@ -1,6 +1,6 @@
 plugins {
     alias(libs.plugins.android.application)
-    // id("com.google.gms.google-services") // Firebase 나중에 추가
+    id("com.google.gms.google-services")
 }
 
 android {
@@ -101,7 +101,7 @@ dependencies {
     implementation(libs.camera.view)
     implementation(libs.webkit) //---webview---
     implementation(libs.appcompat.resources)
-    // implementation(libs.firebase.messaging) // FCM - Firebase 나중에 추가
+    implementation(libs.firebase.messaging)
     implementation(libs.play.services.location)  // 위치
     implementation(libs.activity.v180) // 설정페이지에서 앱 돌아올때 감지
 

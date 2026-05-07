@@ -1,0 +1,2925 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3269138D2F15FB3000C59E1E /* DeviceKit in Frameworks */ = {isa = PBXBuildFile; productRef = 326913882F15FB3000C59E1E /* DeviceKit */; };
+		3269138E2F15FB3000C59E1E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AB1CA862EE08FDC002A544D /* CoreLocation.framework */; };
+		3269138F2F15FB3000C59E1E /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 326913872F15FB3000C59E1E /* FirebaseMessaging */; };
+		326913902F15FB3000C59E1E /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 326913862F15FB3000C59E1E /* FirebaseCore */; };
+		326913912F15FB3000C59E1E /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 326913842F15FB3000C59E1E /* FirebaseAnalytics */; };
+		326913922F15FB3000C59E1E /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		326913932F15FB3000C59E1E /* Pods_KwangdongCustomer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD24DED2C000DA7C82A875C8 /* Pods_KwangdongCustomer.framework */; };
+		326F7FDD2F0C9BF70052395C /* DeviceKit in Frameworks */ = {isa = PBXBuildFile; productRef = 326F7FD82F0C9BF70052395C /* DeviceKit */; };
+		326F7FDE2F0C9BF70052395C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AB1CA862EE08FDC002A544D /* CoreLocation.framework */; };
+		326F7FDF2F0C9BF70052395C /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 326F7FD72F0C9BF70052395C /* FirebaseMessaging */; };
+		326F7FE02F0C9BF70052395C /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 326F7FD62F0C9BF70052395C /* FirebaseCore */; };
+		326F7FE12F0C9BF70052395C /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 326F7FD42F0C9BF70052395C /* FirebaseAnalytics */; };
+		326F7FE22F0C9BF70052395C /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		326F7FE32F0C9BF70052395C /* Pods_KwangdongCustomer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD24DED2C000DA7C82A875C8 /* Pods_KwangdongCustomer.framework */; };
+		32754D3D2F0F69160073C1D7 /* DeviceKit in Frameworks */ = {isa = PBXBuildFile; productRef = 32754D382F0F69160073C1D7 /* DeviceKit */; };
+		32754D3E2F0F69160073C1D7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AB1CA862EE08FDC002A544D /* CoreLocation.framework */; };
+		32754D3F2F0F69160073C1D7 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 32754D372F0F69160073C1D7 /* FirebaseMessaging */; };
+		32754D402F0F69160073C1D7 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 32754D362F0F69160073C1D7 /* FirebaseCore */; };
+		32754D412F0F69160073C1D7 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 32754D342F0F69160073C1D7 /* FirebaseAnalytics */; };
+		32754D422F0F69160073C1D7 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		32754D432F0F69160073C1D7 /* Pods_KwangdongCustomer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD24DED2C000DA7C82A875C8 /* Pods_KwangdongCustomer.framework */; };
+		3276CE922F0B4DEA00A259F4 /* DeviceKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3276CE8D2F0B4DEA00A259F4 /* DeviceKit */; };
+		3276CE932F0B4DEA00A259F4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AB1CA862EE08FDC002A544D /* CoreLocation.framework */; };
+		3276CE942F0B4DEA00A259F4 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 3276CE8C2F0B4DEA00A259F4 /* FirebaseMessaging */; };
+		3276CE952F0B4DEA00A259F4 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 3276CE8B2F0B4DEA00A259F4 /* FirebaseCore */; };
+		3276CE962F0B4DEA00A259F4 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 3276CE892F0B4DEA00A259F4 /* FirebaseAnalytics */; };
+		3276CE972F0B4DEA00A259F4 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		3276CE982F0B4DEA00A259F4 /* Pods_KwangdongCustomer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD24DED2C000DA7C82A875C8 /* Pods_KwangdongCustomer.framework */; };
+		3276D6DB2F0B5B6E00A259F4 /* DeviceKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3276D6D62F0B5B6E00A259F4 /* DeviceKit */; };
+		3276D6DC2F0B5B6E00A259F4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AB1CA862EE08FDC002A544D /* CoreLocation.framework */; };
+		3276D6DD2F0B5B6E00A259F4 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 3276D6D52F0B5B6E00A259F4 /* FirebaseMessaging */; };
+		3276D6DE2F0B5B6E00A259F4 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 3276D6D42F0B5B6E00A259F4 /* FirebaseCore */; };
+		3276D6DF2F0B5B6E00A259F4 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 3276D6D22F0B5B6E00A259F4 /* FirebaseAnalytics */; };
+		3276D6E02F0B5B6E00A259F4 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		3276D6E12F0B5B6E00A259F4 /* Pods_KwangdongCustomer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD24DED2C000DA7C82A875C8 /* Pods_KwangdongCustomer.framework */; };
+		327784312F19DC760098C79D /* DeviceKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3277842C2F19DC760098C79D /* DeviceKit */; };
+		327784322F19DC760098C79D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AB1CA862EE08FDC002A544D /* CoreLocation.framework */; };
+		327784332F19DC760098C79D /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 3277842B2F19DC760098C79D /* FirebaseMessaging */; };
+		327784342F19DC760098C79D /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 3277842A2F19DC760098C79D /* FirebaseCore */; };
+		327784352F19DC760098C79D /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 327784282F19DC760098C79D /* FirebaseAnalytics */; };
+		327784362F19DC760098C79D /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		327784372F19DC760098C79D /* Pods_MobiliteasyBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26561FFFA65B75D34C4F5783 /* Pods_MobiliteasyBase.framework */; };
+		49387D0FED55513830CB5E2A /* Pods_MobiliteasyBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26561FFFA65B75D34C4F5783 /* Pods_MobiliteasyBase.framework */; };
+		4D3DA85CA5EEFBCFEE6511FE /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		5F4B4154368BA0A57E54D779 /* Pods_KwangdongCustomer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD24DED2C000DA7C82A875C8 /* Pods_KwangdongCustomer.framework */; };
+		8A0AE0C22EE841D000B18434 /* DeviceKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8A0AE0BD2EE841D000B18434 /* DeviceKit */; };
+		8A0AE0C32EE841D000B18434 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AB1CA862EE08FDC002A544D /* CoreLocation.framework */; };
+		8A0AE0C42EE841D000B18434 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 8A0AE0BC2EE841D000B18434 /* FirebaseMessaging */; };
+		8A0AE0C52EE841D000B18434 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 8A0AE0BB2EE841D000B18434 /* FirebaseCore */; };
+		8A0AE0C62EE841D000B18434 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 8A0AE0B92EE841D000B18434 /* FirebaseAnalytics */; };
+		8A0AE4222EE8510800B18434 /* DeviceKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8A0AE41D2EE8510800B18434 /* DeviceKit */; };
+		8A0AE4232EE8510800B18434 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AB1CA862EE08FDC002A544D /* CoreLocation.framework */; };
+		8A0AE4242EE8510800B18434 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 8A0AE41C2EE8510800B18434 /* FirebaseMessaging */; };
+		8A0AE4252EE8510800B18434 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 8A0AE41B2EE8510800B18434 /* FirebaseCore */; };
+		8A0AE4262EE8510800B18434 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 8A0AE4192EE8510800B18434 /* FirebaseAnalytics */; };
+		8A0AE4272EE8510800B18434 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		8AB1C87A2EE08DCB002A544D /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 8AB1C8792EE08DCB002A544D /* FirebaseAnalytics */; };
+		8AB1C87C2EE08DCB002A544D /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 8AB1C87B2EE08DCB002A544D /* FirebaseCore */; };
+		8AB1C87E2EE08DCB002A544D /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 8AB1C87D2EE08DCB002A544D /* FirebaseMessaging */; };
+		8AB1CA872EE08FDC002A544D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AB1CA862EE08FDC002A544D /* CoreLocation.framework */; };
+		8AD4D0922EF0AAA0000000F2 /* DeviceKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8AD4D0912EF0AAA0000000F1 /* DeviceKit */; };
+		EA7A830310B395811CF09B81 /* Pods_MobiliteasyLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50946BC7045F8987DAE2D969 /* Pods_MobiliteasyLite.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03CDAD7746252B58BD2CA955 /* Pods-MobiliteasyBase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobiliteasyBase.release.xcconfig"; path = "Target Support Files/Pods-MobiliteasyBase/Pods-MobiliteasyBase.release.xcconfig"; sourceTree = "<group>"; };
+		26561FFFA65B75D34C4F5783 /* Pods_MobiliteasyBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobiliteasyBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3269139A2F15FB3000C59E1E /* openknowl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = openknowl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		326F7FEA2F0C9BF70052395C /* Itcen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Itcen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32754D4A2F0F69160073C1D7 /* Jw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jw.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3276CE9F2F0B4DEA00A259F4 /* KakaoShuttleV2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KakaoShuttleV2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3276D6E82F0B5B6E00A259F4 /* SKBioscience.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKBioscience.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3277843E2F19DC760098C79D /* Nol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nol.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		382715DEE36360256F4DA43B /* Pods-KwangdongCustomer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KwangdongCustomer.release.xcconfig"; path = "Target Support Files/Pods-KwangdongCustomer/Pods-KwangdongCustomer.release.xcconfig"; sourceTree = "<group>"; };
+		50946BC7045F8987DAE2D969 /* Pods_MobiliteasyLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobiliteasyLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		699776F432AF33B21B90C799 /* Pods-MobiliteasyLite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobiliteasyLite.debug.xcconfig"; path = "Target Support Files/Pods-MobiliteasyLite/Pods-MobiliteasyLite.debug.xcconfig"; sourceTree = "<group>"; };
+		6AC6006D71BC8522548DF8BD /* Pods-KwangdongCustomer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KwangdongCustomer.debug.xcconfig"; path = "Target Support Files/Pods-KwangdongCustomer/Pods-KwangdongCustomer.debug.xcconfig"; sourceTree = "<group>"; };
+		6DB9E36ED1A1446DC379F45F /* Pods-MobiliteasyLite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobiliteasyLite.release.xcconfig"; path = "Target Support Files/Pods-MobiliteasyLite/Pods-MobiliteasyLite.release.xcconfig"; sourceTree = "<group>"; };
+		8A0AE0CD2EE841D000B18434 /* MobiliteasyLite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobiliteasyLite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A0AE42E2EE8510800B18434 /* KwangdongCustomer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KwangdongCustomer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AB1C8142EE08BA0002A544D /* MobiliteasyBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobiliteasyBase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AB1CA862EE08FDC002A544D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B0E89140C6B21939CABF083B /* Pods-MobiliteasyBase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobiliteasyBase.debug.xcconfig"; path = "Target Support Files/Pods-MobiliteasyBase/Pods-MobiliteasyBase.debug.xcconfig"; sourceTree = "<group>"; };
+		BD24DED2C000DA7C82A875C8 /* Pods_KwangdongCustomer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KwangdongCustomer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		3269139B2F15FB3100C59E1E /* Exceptions for "MobiliteasyBase" folder in "openknowl" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"GoogleService-info/GoogleService-Info-kakaoshuttlev2.plist",
+				"GoogleService-info/GoogleService-Info-Kwangdong.plist",
+				"GoogleService-info/GoogleService-Info-Lite.plist",
+				"GoogleService-info/GoogleService-Info.plist",
+				"GoogleService-info/GoogleService-Itcen.plist",
+				"GoogleService-info/GoogleService-JW.plist",
+				"GoogleService-info/GoogleService-Nol.plist",
+				"GoogleService-info/GoogleService-SKBio.plist",
+				"plist/Info-Itcen.plist",
+				"plist/Info-JW.plist",
+				"plist/Info-KakaoShuttleV2.plist",
+				"plist/Info-Kwangdong.plist",
+				"plist/Info-Lite.plist",
+				"plist/Info-SKBioscience.plist",
+				plist/Info.plist,
+			);
+			target = 326913832F15FB3000C59E1E /* openknowl */;
+		};
+		326F7FEB2F0C9BF70052395C /* Exceptions for "MobiliteasyBase" folder in "Itcen" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"GoogleService-info/GoogleService-Info-kakaoshuttlev2.plist",
+				"GoogleService-info/GoogleService-Info-Kwangdong.plist",
+				"GoogleService-info/GoogleService-Info-Lite.plist",
+				"GoogleService-info/GoogleService-Info.plist",
+				"GoogleService-info/GoogleService-JW.plist",
+				"GoogleService-info/GoogleService-Nol.plist",
+				"GoogleService-info/GoogleService-Openknowl.plist",
+				"GoogleService-info/GoogleService-SKBio.plist",
+				"plist/Info-KakaoShuttleV2.plist",
+				"plist/Info-Kwangdong.plist",
+				"plist/Info-Lite.plist",
+				"plist/Info-Openknowl.plist",
+				"plist/Info-SKBioscience.plist",
+				plist/Info.plist,
+			);
+			target = 326F7FD32F0C9BF70052395C /* Itcen */;
+		};
+		32754D4B2F0F69160073C1D7 /* Exceptions for "MobiliteasyBase" folder in "Jw" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"GoogleService-info/GoogleService-Info-kakaoshuttlev2.plist",
+				"GoogleService-info/GoogleService-Info-Kwangdong.plist",
+				"GoogleService-info/GoogleService-Info-Lite.plist",
+				"GoogleService-info/GoogleService-Info.plist",
+				"GoogleService-info/GoogleService-Itcen.plist",
+				"GoogleService-info/GoogleService-JW.plist",
+				"GoogleService-info/GoogleService-Nol.plist",
+				"GoogleService-info/GoogleService-Openknowl.plist",
+				"GoogleService-info/GoogleService-SKBio.plist",
+				"plist/Info-Itcen.plist",
+				"plist/Info-KakaoShuttleV2.plist",
+				"plist/Info-Kwangdong.plist",
+				"plist/Info-Lite.plist",
+				"plist/Info-Openknowl.plist",
+				"plist/Info-SKBioscience.plist",
+				plist/Info.plist,
+			);
+			target = 32754D332F0F69160073C1D7 /* Jw */;
+		};
+		3276CED02F0B4FE600A259F4 /* Exceptions for "MobiliteasyBase" folder in "KakaoShuttleV2" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"GoogleService-info/GoogleService-Info-Kwangdong.plist",
+				"GoogleService-info/GoogleService-Info-Lite.plist",
+				"GoogleService-info/GoogleService-Info.plist",
+				"GoogleService-info/GoogleService-Itcen.plist",
+				"GoogleService-info/GoogleService-JW.plist",
+				"GoogleService-info/GoogleService-Nol.plist",
+				"GoogleService-info/GoogleService-Openknowl.plist",
+				"GoogleService-info/GoogleService-SKBio.plist",
+				"plist/Info-Kwangdong.plist",
+				"plist/Info-Lite.plist",
+				"plist/Info-Openknowl.plist",
+				plist/Info.plist,
+			);
+			target = 3276CE882F0B4DEA00A259F4 /* KakaoShuttleV2 */;
+		};
+		3276D6E92F0B5B6E00A259F4 /* Exceptions for "MobiliteasyBase" folder in "SKBioscience" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"GoogleService-info/GoogleService-Info-kakaoshuttlev2.plist",
+				"GoogleService-info/GoogleService-Info-Kwangdong.plist",
+				"GoogleService-info/GoogleService-Info-Lite.plist",
+				"GoogleService-info/GoogleService-Info.plist",
+				"GoogleService-info/GoogleService-Itcen.plist",
+				"GoogleService-info/GoogleService-JW.plist",
+				"GoogleService-info/GoogleService-Nol.plist",
+				"GoogleService-info/GoogleService-Openknowl.plist",
+				"plist/Info-KakaoShuttleV2.plist",
+				"plist/Info-Kwangdong.plist",
+				"plist/Info-Lite.plist",
+				"plist/Info-Openknowl.plist",
+				plist/Info.plist,
+			);
+			target = 3276D6D12F0B5B6E00A259F4 /* SKBioscience */;
+		};
+		3277843F2F19DC760098C79D /* Exceptions for "MobiliteasyBase" folder in "Nol" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"GoogleService-info/GoogleService-Info-kakaoshuttlev2.plist",
+				"GoogleService-info/GoogleService-Info-Kwangdong.plist",
+				"GoogleService-info/GoogleService-Info-Lite.plist",
+				"GoogleService-info/GoogleService-Info.plist",
+				"GoogleService-info/GoogleService-Itcen.plist",
+				"GoogleService-info/GoogleService-JW.plist",
+				"GoogleService-info/GoogleService-Openknowl.plist",
+				"GoogleService-info/GoogleService-SKBio.plist",
+				"plist/Info-Itcen.plist",
+				"plist/Info-JW.plist",
+				"plist/Info-KakaoShuttleV2.plist",
+				"plist/Info-Kwangdong.plist",
+				"plist/Info-Lite.plist",
+				"plist/Info-Openknowl.plist",
+				"plist/Info-SKBioscience.plist",
+				plist/Info.plist,
+			);
+			target = 327784272F19DC760098C79D /* Nol */;
+		};
+		8A0AE0CE2EE841D000B18434 /* Exceptions for "MobiliteasyBase" folder in "MobiliteasyLite" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"GoogleService-info/GoogleService-Info-kakaoshuttlev2.plist",
+				"GoogleService-info/GoogleService-Info-Kwangdong.plist",
+				"GoogleService-info/GoogleService-Info.plist",
+				"GoogleService-info/GoogleService-Itcen.plist",
+				"GoogleService-info/GoogleService-JW.plist",
+				"GoogleService-info/GoogleService-Nol.plist",
+				"GoogleService-info/GoogleService-Openknowl.plist",
+				"GoogleService-info/GoogleService-SKBio.plist",
+				"plist/Info-Itcen.plist",
+				"plist/Info-JW.plist",
+				"plist/Info-KakaoShuttleV2.plist",
+				"plist/Info-Kwangdong.plist",
+				"plist/Info-Openknowl.plist",
+				"plist/Info-SKBioscience.plist",
+				plist/Info.plist,
+			);
+			target = 8A0AE0B82EE841D000B18434 /* MobiliteasyLite */;
+		};
+		8A0AE42F2EE8510800B18434 /* Exceptions for "MobiliteasyBase" folder in "KwangdongCustomer" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"GoogleService-info/GoogleService-Info-kakaoshuttlev2.plist",
+				"GoogleService-info/GoogleService-Info-Kwangdong.plist",
+				"GoogleService-info/GoogleService-Info-Lite.plist",
+				"GoogleService-info/GoogleService-Info.plist",
+				"GoogleService-info/GoogleService-Itcen.plist",
+				"GoogleService-info/GoogleService-JW.plist",
+				"GoogleService-info/GoogleService-Nol.plist",
+				"GoogleService-info/GoogleService-Openknowl.plist",
+				"GoogleService-info/GoogleService-SKBio.plist",
+				"plist/Info-Itcen.plist",
+				"plist/Info-JW.plist",
+				"plist/Info-KakaoShuttleV2.plist",
+				"plist/Info-Lite.plist",
+				"plist/Info-Openknowl.plist",
+				"plist/Info-SKBioscience.plist",
+				plist/Info.plist,
+			);
+			target = 8A0AE4182EE8510800B18434 /* KwangdongCustomer */;
+		};
+		8AB1C8772EE08CD0002A544D /* Exceptions for "MobiliteasyBase" folder in "MobiliteasyBase" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"GoogleService-info/GoogleService-Info-kakaoshuttlev2.plist",
+				"GoogleService-info/GoogleService-Info-Kwangdong.plist",
+				"GoogleService-info/GoogleService-Info-Lite.plist",
+				"GoogleService-info/GoogleService-Itcen.plist",
+				"GoogleService-info/GoogleService-JW.plist",
+				"GoogleService-info/GoogleService-Nol.plist",
+				"GoogleService-info/GoogleService-Openknowl.plist",
+				"GoogleService-info/GoogleService-SKBio.plist",
+				"plist/Info-Itcen.plist",
+				"plist/Info-JW.plist",
+				"plist/Info-KakaoShuttleV2.plist",
+				"plist/Info-Kwangdong.plist",
+				"plist/Info-Lite.plist",
+				"plist/Info-Openknowl.plist",
+				"plist/Info-SKBioscience.plist",
+				plist/Info.plist,
+			);
+			target = 8AB1C8132EE08BA0002A544D /* MobiliteasyBase */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		326913CC2F15FEB500C59E1E /* Exceptions for "MobiliteasyBase" folder in "Copy Bundle Resources" phase from "openknowl" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = 326913942F15FB3000C59E1E /* Resources */;
+			membershipExceptions = (
+				entitlements/Openknowl.entitlements,
+			);
+		};
+		3277846B2F19DF3F0098C79D /* Exceptions for "MobiliteasyBase" folder in "Copy Bundle Resources" phase from "Nol" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = 327784382F19DC760098C79D /* Resources */;
+			membershipExceptions = (
+				entitlements/Nol.entitlements,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		8AB1C8162EE08BA0002A544D /* MobiliteasyBase */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				8AB1C8772EE08CD0002A544D /* Exceptions for "MobiliteasyBase" folder in "MobiliteasyBase" target */,
+				8A0AE0CE2EE841D000B18434 /* Exceptions for "MobiliteasyBase" folder in "MobiliteasyLite" target */,
+				8A0AE42F2EE8510800B18434 /* Exceptions for "MobiliteasyBase" folder in "KwangdongCustomer" target */,
+				3276CED02F0B4FE600A259F4 /* Exceptions for "MobiliteasyBase" folder in "KakaoShuttleV2" target */,
+				3276D6E92F0B5B6E00A259F4 /* Exceptions for "MobiliteasyBase" folder in "SKBioscience" target */,
+				326F7FEB2F0C9BF70052395C /* Exceptions for "MobiliteasyBase" folder in "Itcen" target */,
+				32754D4B2F0F69160073C1D7 /* Exceptions for "MobiliteasyBase" folder in "Jw" target */,
+				3269139B2F15FB3100C59E1E /* Exceptions for "MobiliteasyBase" folder in "openknowl" target */,
+				326913CC2F15FEB500C59E1E /* Exceptions for "MobiliteasyBase" folder in "Copy Bundle Resources" phase from "openknowl" target */,
+				3277843F2F19DC760098C79D /* Exceptions for "MobiliteasyBase" folder in "Nol" target */,
+				3277846B2F19DF3F0098C79D /* Exceptions for "MobiliteasyBase" folder in "Copy Bundle Resources" phase from "Nol" target */,
+			);
+			path = MobiliteasyBase;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3269138C2F15FB3000C59E1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3269138D2F15FB3000C59E1E /* DeviceKit in Frameworks */,
+				3269138E2F15FB3000C59E1E /* CoreLocation.framework in Frameworks */,
+				3269138F2F15FB3000C59E1E /* FirebaseMessaging in Frameworks */,
+				326913902F15FB3000C59E1E /* FirebaseCore in Frameworks */,
+				326913912F15FB3000C59E1E /* FirebaseAnalytics in Frameworks */,
+				326913922F15FB3000C59E1E /* (null) in Frameworks */,
+				326913932F15FB3000C59E1E /* Pods_KwangdongCustomer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		326F7FDC2F0C9BF70052395C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				326F7FDD2F0C9BF70052395C /* DeviceKit in Frameworks */,
+				326F7FDE2F0C9BF70052395C /* CoreLocation.framework in Frameworks */,
+				326F7FDF2F0C9BF70052395C /* FirebaseMessaging in Frameworks */,
+				326F7FE02F0C9BF70052395C /* FirebaseCore in Frameworks */,
+				326F7FE12F0C9BF70052395C /* FirebaseAnalytics in Frameworks */,
+				326F7FE22F0C9BF70052395C /* (null) in Frameworks */,
+				326F7FE32F0C9BF70052395C /* Pods_KwangdongCustomer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32754D3C2F0F69160073C1D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32754D3D2F0F69160073C1D7 /* DeviceKit in Frameworks */,
+				32754D3E2F0F69160073C1D7 /* CoreLocation.framework in Frameworks */,
+				32754D3F2F0F69160073C1D7 /* FirebaseMessaging in Frameworks */,
+				32754D402F0F69160073C1D7 /* FirebaseCore in Frameworks */,
+				32754D412F0F69160073C1D7 /* FirebaseAnalytics in Frameworks */,
+				32754D422F0F69160073C1D7 /* (null) in Frameworks */,
+				32754D432F0F69160073C1D7 /* Pods_KwangdongCustomer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3276CE912F0B4DEA00A259F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3276CE922F0B4DEA00A259F4 /* DeviceKit in Frameworks */,
+				3276CE932F0B4DEA00A259F4 /* CoreLocation.framework in Frameworks */,
+				3276CE942F0B4DEA00A259F4 /* FirebaseMessaging in Frameworks */,
+				3276CE952F0B4DEA00A259F4 /* FirebaseCore in Frameworks */,
+				3276CE962F0B4DEA00A259F4 /* FirebaseAnalytics in Frameworks */,
+				3276CE972F0B4DEA00A259F4 /* (null) in Frameworks */,
+				3276CE982F0B4DEA00A259F4 /* Pods_KwangdongCustomer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3276D6DA2F0B5B6E00A259F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3276D6DB2F0B5B6E00A259F4 /* DeviceKit in Frameworks */,
+				3276D6DC2F0B5B6E00A259F4 /* CoreLocation.framework in Frameworks */,
+				3276D6DD2F0B5B6E00A259F4 /* FirebaseMessaging in Frameworks */,
+				3276D6DE2F0B5B6E00A259F4 /* FirebaseCore in Frameworks */,
+				3276D6DF2F0B5B6E00A259F4 /* FirebaseAnalytics in Frameworks */,
+				3276D6E02F0B5B6E00A259F4 /* (null) in Frameworks */,
+				3276D6E12F0B5B6E00A259F4 /* Pods_KwangdongCustomer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		327784302F19DC760098C79D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				327784312F19DC760098C79D /* DeviceKit in Frameworks */,
+				327784322F19DC760098C79D /* CoreLocation.framework in Frameworks */,
+				327784332F19DC760098C79D /* FirebaseMessaging in Frameworks */,
+				327784342F19DC760098C79D /* FirebaseCore in Frameworks */,
+				327784352F19DC760098C79D /* FirebaseAnalytics in Frameworks */,
+				327784362F19DC760098C79D /* (null) in Frameworks */,
+				327784372F19DC760098C79D /* Pods_MobiliteasyBase.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A0AE0C12EE841D000B18434 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A0AE0C22EE841D000B18434 /* DeviceKit in Frameworks */,
+				8A0AE0C32EE841D000B18434 /* CoreLocation.framework in Frameworks */,
+				8A0AE0C42EE841D000B18434 /* FirebaseMessaging in Frameworks */,
+				8A0AE0C52EE841D000B18434 /* FirebaseCore in Frameworks */,
+				8A0AE0C62EE841D000B18434 /* FirebaseAnalytics in Frameworks */,
+				EA7A830310B395811CF09B81 /* Pods_MobiliteasyLite.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A0AE4212EE8510800B18434 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A0AE4222EE8510800B18434 /* DeviceKit in Frameworks */,
+				8A0AE4232EE8510800B18434 /* CoreLocation.framework in Frameworks */,
+				8A0AE4242EE8510800B18434 /* FirebaseMessaging in Frameworks */,
+				8A0AE4252EE8510800B18434 /* FirebaseCore in Frameworks */,
+				8A0AE4262EE8510800B18434 /* FirebaseAnalytics in Frameworks */,
+				8A0AE4272EE8510800B18434 /* (null) in Frameworks */,
+				5F4B4154368BA0A57E54D779 /* Pods_KwangdongCustomer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AB1C8112EE08BA0002A544D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AD4D0922EF0AAA0000000F2 /* DeviceKit in Frameworks */,
+				8AB1CA872EE08FDC002A544D /* CoreLocation.framework in Frameworks */,
+				8AB1C87E2EE08DCB002A544D /* FirebaseMessaging in Frameworks */,
+				8AB1C87C2EE08DCB002A544D /* FirebaseCore in Frameworks */,
+				8AB1C87A2EE08DCB002A544D /* FirebaseAnalytics in Frameworks */,
+				4D3DA85CA5EEFBCFEE6511FE /* (null) in Frameworks */,
+				49387D0FED55513830CB5E2A /* Pods_MobiliteasyBase.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4538E34C51B9FE787A4ACCE7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B0E89140C6B21939CABF083B /* Pods-MobiliteasyBase.debug.xcconfig */,
+				03CDAD7746252B58BD2CA955 /* Pods-MobiliteasyBase.release.xcconfig */,
+				699776F432AF33B21B90C799 /* Pods-MobiliteasyLite.debug.xcconfig */,
+				6DB9E36ED1A1446DC379F45F /* Pods-MobiliteasyLite.release.xcconfig */,
+				6AC6006D71BC8522548DF8BD /* Pods-KwangdongCustomer.debug.xcconfig */,
+				382715DEE36360256F4DA43B /* Pods-KwangdongCustomer.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8AB1C80B2EE08BA0002A544D = {
+			isa = PBXGroup;
+			children = (
+				8AB1C8162EE08BA0002A544D /* MobiliteasyBase */,
+				8AB1CA852EE08FDC002A544D /* Frameworks */,
+				8AB1C8152EE08BA0002A544D /* Products */,
+				4538E34C51B9FE787A4ACCE7 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		8AB1C8152EE08BA0002A544D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AB1C8142EE08BA0002A544D /* MobiliteasyBase.app */,
+				8A0AE0CD2EE841D000B18434 /* MobiliteasyLite.app */,
+				8A0AE42E2EE8510800B18434 /* KwangdongCustomer.app */,
+				3276CE9F2F0B4DEA00A259F4 /* KakaoShuttleV2.app */,
+				3276D6E82F0B5B6E00A259F4 /* SKBioscience.app */,
+				326F7FEA2F0C9BF70052395C /* Itcen.app */,
+				32754D4A2F0F69160073C1D7 /* Jw.app */,
+				3269139A2F15FB3000C59E1E /* openknowl.app */,
+				3277843E2F19DC760098C79D /* Nol.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8AB1CA852EE08FDC002A544D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8AB1CA862EE08FDC002A544D /* CoreLocation.framework */,
+				50946BC7045F8987DAE2D969 /* Pods_MobiliteasyLite.framework */,
+				BD24DED2C000DA7C82A875C8 /* Pods_KwangdongCustomer.framework */,
+				26561FFFA65B75D34C4F5783 /* Pods_MobiliteasyBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		326913832F15FB3000C59E1E /* openknowl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 326913972F15FB3000C59E1E /* Build configuration list for PBXNativeTarget "openknowl" */;
+			buildPhases = (
+				3269138A2F15FB3000C59E1E /* [CP] Check Pods Manifest.lock */,
+				3269138B2F15FB3000C59E1E /* Sources */,
+				3269138C2F15FB3000C59E1E /* Frameworks */,
+				326913942F15FB3000C59E1E /* Resources */,
+				326913952F15FB3000C59E1E /* GoogleService-Info (Openknowl) */,
+				326913962F15FB3000C59E1E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				8AB1C8162EE08BA0002A544D /* MobiliteasyBase */,
+			);
+			name = openknowl;
+			packageProductDependencies = (
+				326913842F15FB3000C59E1E /* FirebaseAnalytics */,
+				326913862F15FB3000C59E1E /* FirebaseCore */,
+				326913872F15FB3000C59E1E /* FirebaseMessaging */,
+				326913882F15FB3000C59E1E /* DeviceKit */,
+			);
+			productName = MobiliteasyBase;
+			productReference = 3269139A2F15FB3000C59E1E /* openknowl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		326F7FD32F0C9BF70052395C /* Itcen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 326F7FE72F0C9BF70052395C /* Build configuration list for PBXNativeTarget "Itcen" */;
+			buildPhases = (
+				326F7FDA2F0C9BF70052395C /* [CP] Check Pods Manifest.lock */,
+				326F7FDB2F0C9BF70052395C /* Sources */,
+				326F7FDC2F0C9BF70052395C /* Frameworks */,
+				326F7FE42F0C9BF70052395C /* Resources */,
+				326F7FE52F0C9BF70052395C /* GoogleService-Info (Itcen) */,
+				326F7FE62F0C9BF70052395C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				8AB1C8162EE08BA0002A544D /* MobiliteasyBase */,
+			);
+			name = Itcen;
+			packageProductDependencies = (
+				326F7FD42F0C9BF70052395C /* FirebaseAnalytics */,
+				326F7FD62F0C9BF70052395C /* FirebaseCore */,
+				326F7FD72F0C9BF70052395C /* FirebaseMessaging */,
+				326F7FD82F0C9BF70052395C /* DeviceKit */,
+			);
+			productName = MobiliteasyBase;
+			productReference = 326F7FEA2F0C9BF70052395C /* Itcen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32754D332F0F69160073C1D7 /* Jw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32754D472F0F69160073C1D7 /* Build configuration list for PBXNativeTarget "Jw" */;
+			buildPhases = (
+				32754D3A2F0F69160073C1D7 /* [CP] Check Pods Manifest.lock */,
+				32754D3B2F0F69160073C1D7 /* Sources */,
+				32754D3C2F0F69160073C1D7 /* Frameworks */,
+				32754D442F0F69160073C1D7 /* Resources */,
+				32754D452F0F69160073C1D7 /* GoogleService-Info (JW) */,
+				32754D462F0F69160073C1D7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				8AB1C8162EE08BA0002A544D /* MobiliteasyBase */,
+			);
+			name = Jw;
+			packageProductDependencies = (
+				32754D342F0F69160073C1D7 /* FirebaseAnalytics */,
+				32754D362F0F69160073C1D7 /* FirebaseCore */,
+				32754D372F0F69160073C1D7 /* FirebaseMessaging */,
+				32754D382F0F69160073C1D7 /* DeviceKit */,
+			);
+			productName = MobiliteasyBase;
+			productReference = 32754D4A2F0F69160073C1D7 /* Jw.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3276CE882F0B4DEA00A259F4 /* KakaoShuttleV2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3276CE9C2F0B4DEA00A259F4 /* Build configuration list for PBXNativeTarget "KakaoShuttleV2" */;
+			buildPhases = (
+				3276CE8F2F0B4DEA00A259F4 /* [CP] Check Pods Manifest.lock */,
+				3276CE902F0B4DEA00A259F4 /* Sources */,
+				3276CE912F0B4DEA00A259F4 /* Frameworks */,
+				3276CE992F0B4DEA00A259F4 /* Resources */,
+				3276CE9A2F0B4DEA00A259F4 /* Copy GoogleService-Info (KakaoShuttleV2) */,
+				3276CE9B2F0B4DEA00A259F4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				8AB1C8162EE08BA0002A544D /* MobiliteasyBase */,
+			);
+			name = KakaoShuttleV2;
+			packageProductDependencies = (
+				3276CE892F0B4DEA00A259F4 /* FirebaseAnalytics */,
+				3276CE8B2F0B4DEA00A259F4 /* FirebaseCore */,
+				3276CE8C2F0B4DEA00A259F4 /* FirebaseMessaging */,
+				3276CE8D2F0B4DEA00A259F4 /* DeviceKit */,
+			);
+			productName = MobiliteasyBase;
+			productReference = 3276CE9F2F0B4DEA00A259F4 /* KakaoShuttleV2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3276D6D12F0B5B6E00A259F4 /* SKBioscience */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3276D6E52F0B5B6E00A259F4 /* Build configuration list for PBXNativeTarget "SKBioscience" */;
+			buildPhases = (
+				3276D6D82F0B5B6E00A259F4 /* [CP] Check Pods Manifest.lock */,
+				3276D6D92F0B5B6E00A259F4 /* Sources */,
+				3276D6DA2F0B5B6E00A259F4 /* Frameworks */,
+				3276D6E22F0B5B6E00A259F4 /* Resources */,
+				3276D6E32F0B5B6E00A259F4 /* Copy GoogleService-Info (SKBioscience) */,
+				3276D6E42F0B5B6E00A259F4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				8AB1C8162EE08BA0002A544D /* MobiliteasyBase */,
+			);
+			name = SKBioscience;
+			packageProductDependencies = (
+				3276D6D22F0B5B6E00A259F4 /* FirebaseAnalytics */,
+				3276D6D42F0B5B6E00A259F4 /* FirebaseCore */,
+				3276D6D52F0B5B6E00A259F4 /* FirebaseMessaging */,
+				3276D6D62F0B5B6E00A259F4 /* DeviceKit */,
+			);
+			productName = MobiliteasyBase;
+			productReference = 3276D6E82F0B5B6E00A259F4 /* SKBioscience.app */;
+			productType = "com.apple.product-type.application";
+		};
+		327784272F19DC760098C79D /* Nol */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3277843B2F19DC760098C79D /* Build configuration list for PBXNativeTarget "Nol" */;
+			buildPhases = (
+				3277842E2F19DC760098C79D /* [CP] Check Pods Manifest.lock */,
+				3277842F2F19DC760098C79D /* Sources */,
+				327784302F19DC760098C79D /* Frameworks */,
+				327784382F19DC760098C79D /* Resources */,
+				327784392F19DC760098C79D /* Copy GoogleService-Info (Nol) */,
+				3277843A2F19DC760098C79D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				8AB1C8162EE08BA0002A544D /* MobiliteasyBase */,
+			);
+			name = Nol;
+			packageProductDependencies = (
+				327784282F19DC760098C79D /* FirebaseAnalytics */,
+				3277842A2F19DC760098C79D /* FirebaseCore */,
+				3277842B2F19DC760098C79D /* FirebaseMessaging */,
+				3277842C2F19DC760098C79D /* DeviceKit */,
+			);
+			productName = MobiliteasyBase;
+			productReference = 3277843E2F19DC760098C79D /* Nol.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8A0AE0B82EE841D000B18434 /* MobiliteasyLite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A0AE0CA2EE841D000B18434 /* Build configuration list for PBXNativeTarget "MobiliteasyLite" */;
+			buildPhases = (
+				8A0AE0BF2EE841D000B18434 /* [CP] Check Pods Manifest.lock */,
+				8A0AE0C02EE841D000B18434 /* Sources */,
+				8A0AE0C12EE841D000B18434 /* Frameworks */,
+				8A0AE0C82EE841D000B18434 /* Resources */,
+				8A0AE0C92EE841D000B18434 /* [CP] Embed Pods Frameworks */,
+				8A0AE0D32EE8456200B18434 /* Copy GoogleService-Info (Lite) */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				8AB1C8162EE08BA0002A544D /* MobiliteasyBase */,
+			);
+			name = MobiliteasyLite;
+			packageProductDependencies = (
+				8A0AE0B92EE841D000B18434 /* FirebaseAnalytics */,
+				8A0AE0BB2EE841D000B18434 /* FirebaseCore */,
+				8A0AE0BC2EE841D000B18434 /* FirebaseMessaging */,
+				8A0AE0BD2EE841D000B18434 /* DeviceKit */,
+			);
+			productName = MobiliteasyBase;
+			productReference = 8A0AE0CD2EE841D000B18434 /* MobiliteasyLite.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8A0AE4182EE8510800B18434 /* KwangdongCustomer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A0AE42B2EE8510800B18434 /* Build configuration list for PBXNativeTarget "KwangdongCustomer" */;
+			buildPhases = (
+				8A0AE41F2EE8510800B18434 /* [CP] Check Pods Manifest.lock */,
+				8A0AE4202EE8510800B18434 /* Sources */,
+				8A0AE4212EE8510800B18434 /* Frameworks */,
+				8A0AE4282EE8510800B18434 /* Resources */,
+				8A0AE4292EE8510800B18434 /* Copy GoogleService-Info (Kwangdong) */,
+				8A0AE42A2EE8510800B18434 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				8AB1C8162EE08BA0002A544D /* MobiliteasyBase */,
+			);
+			name = KwangdongCustomer;
+			packageProductDependencies = (
+				8A0AE4192EE8510800B18434 /* FirebaseAnalytics */,
+				8A0AE41B2EE8510800B18434 /* FirebaseCore */,
+				8A0AE41C2EE8510800B18434 /* FirebaseMessaging */,
+				8A0AE41D2EE8510800B18434 /* DeviceKit */,
+			);
+			productName = MobiliteasyBase;
+			productReference = 8A0AE42E2EE8510800B18434 /* KwangdongCustomer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8AB1C8132EE08BA0002A544D /* MobiliteasyBase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AB1C81F2EE08BA2002A544D /* Build configuration list for PBXNativeTarget "MobiliteasyBase" */;
+			buildPhases = (
+				3D3C3202E2A1C87A89117E26 /* [CP] Check Pods Manifest.lock */,
+				8AB1C8102EE08BA0002A544D /* Sources */,
+				8AB1C8112EE08BA0002A544D /* Frameworks */,
+				8AB1C8122EE08BA0002A544D /* Resources */,
+				8ABASE012EF0B1A0000000F3 /* Copy GoogleService-Info (Base) */,
+				9B7C5C96CE99AB9A02D6F1C5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				8AB1C8162EE08BA0002A544D /* MobiliteasyBase */,
+			);
+			name = MobiliteasyBase;
+			packageProductDependencies = (
+				8AB1C8792EE08DCB002A544D /* FirebaseAnalytics */,
+				8AB1C87B2EE08DCB002A544D /* FirebaseCore */,
+				8AB1C87D2EE08DCB002A544D /* FirebaseMessaging */,
+				8AD4D0912EF0AAA0000000F1 /* DeviceKit */,
+			);
+			productName = MobiliteasyBase;
+			productReference = 8AB1C8142EE08BA0002A544D /* MobiliteasyBase.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8AB1C80C2EE08BA0002A544D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2610;
+				TargetAttributes = {
+					8AB1C8132EE08BA0002A544D = {
+						CreatedOnToolsVersion = 26.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 8AB1C80F2EE08BA0002A544D /* Build configuration list for PBXProject "MobiliteasyBase" */;
+			developmentRegion = ko;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				ko,
+			);
+			mainGroup = 8AB1C80B2EE08BA0002A544D;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				8AB1C8782EE08DCB002A544D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				8AD4D0902EF0AAA0000000F0 /* XCRemoteSwiftPackageReference "DeviceKit" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8AB1C8152EE08BA0002A544D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8AB1C8132EE08BA0002A544D /* MobiliteasyBase */,
+				8A0AE0B82EE841D000B18434 /* MobiliteasyLite */,
+				8A0AE4182EE8510800B18434 /* KwangdongCustomer */,
+				3276CE882F0B4DEA00A259F4 /* KakaoShuttleV2 */,
+				3276D6D12F0B5B6E00A259F4 /* SKBioscience */,
+				326F7FD32F0C9BF70052395C /* Itcen */,
+				32754D332F0F69160073C1D7 /* Jw */,
+				326913832F15FB3000C59E1E /* openknowl */,
+				327784272F19DC760098C79D /* Nol */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		326913942F15FB3000C59E1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		326F7FE42F0C9BF70052395C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32754D442F0F69160073C1D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3276CE992F0B4DEA00A259F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3276D6E22F0B5B6E00A259F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		327784382F19DC760098C79D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A0AE0C82EE841D000B18434 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A0AE4282EE8510800B18434 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AB1C8122EE08BA0002A544D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3269138A2F15FB3000C59E1E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KwangdongCustomer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		326913952F15FB3000C59E1E /* GoogleService-Info (Openknowl) */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "GoogleService-Info (Openknowl)";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# GoogleService (Openknowl)\nPLIST_SOURCE=\"${PROJECT_DIR}/MobiliteasyBase/GoogleService-info/GoogleService-Openknowl.plist\"\nPLIST_DESTINATION=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app/GoogleService-Info.plist\"\n\nif [ -f \"$PLIST_SOURCE\" ]; then\n    echo \"✅ Copying GoogleService-Openknowl.plist\"\n    cp \"$PLIST_SOURCE\" \"$PLIST_DESTINATION\"\nelse\n    echo \"❌ GoogleService-Openknowl.plist not found at $PLIST_SOURCE\"\n    exit 1\nfi\n";
+		};
+		326913962F15FB3000C59E1E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KwangdongCustomer/Pods-KwangdongCustomer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KwangdongCustomer/Pods-KwangdongCustomer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KwangdongCustomer/Pods-KwangdongCustomer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		326F7FDA2F0C9BF70052395C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KwangdongCustomer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		326F7FE52F0C9BF70052395C /* GoogleService-Info (Itcen) */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "GoogleService-Info (Itcen)";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# GoogleService (Itcen)\nPLIST_SOURCE=\"${PROJECT_DIR}/MobiliteasyBase/GoogleService-info/GoogleService-Itcen.plist\"\nPLIST_DESTINATION=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app/GoogleService-Info.plist\"\n\nif [ -f \"$PLIST_SOURCE\" ]; then\n    echo \"✅ Copying GoogleService-Itcen.plist\"\n    cp \"$PLIST_SOURCE\" \"$PLIST_DESTINATION\"\nelse\n    echo \"❌ GoogleService-Itcen.plist not found at $PLIST_SOURCE\"\n    exit 1\nfi\n";
+		};
+		326F7FE62F0C9BF70052395C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KwangdongCustomer/Pods-KwangdongCustomer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KwangdongCustomer/Pods-KwangdongCustomer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KwangdongCustomer/Pods-KwangdongCustomer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32754D3A2F0F69160073C1D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KwangdongCustomer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32754D452F0F69160073C1D7 /* GoogleService-Info (JW) */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "GoogleService-Info (JW)";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# GoogleService (JW)\nPLIST_SOURCE=\"${PROJECT_DIR}/MobiliteasyBase/GoogleService-info/GoogleService-JW.plist\"\nPLIST_DESTINATION=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app/GoogleService-Info.plist\"\n\nif [ -f \"$PLIST_SOURCE\" ]; then\n    echo \"✅ Copying GoogleService-JW.plist\"\n    cp \"$PLIST_SOURCE\" \"$PLIST_DESTINATION\"\nelse\n    echo \"❌ GoogleService-JW.plist not found at $PLIST_SOURCE\"\n    exit 1\nfi\n";
+		};
+		32754D462F0F69160073C1D7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KwangdongCustomer/Pods-KwangdongCustomer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KwangdongCustomer/Pods-KwangdongCustomer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KwangdongCustomer/Pods-KwangdongCustomer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3276CE8F2F0B4DEA00A259F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KwangdongCustomer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3276CE9A2F0B4DEA00A259F4 /* Copy GoogleService-Info (KakaoShuttleV2) */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Copy GoogleService-Info (KakaoShuttleV2)";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# GoogleService-Info.plist 복사 (KakaoShuttleV2)\nPLIST_SOURCE=\"${PROJECT_DIR}/MobiliteasyBase/GoogleService-info/GoogleService-Info-kakaoshuttlev2.plist\"\nPLIST_DESTINATION=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app/GoogleService-Info.plist\"\n\nif [ -f \"$PLIST_SOURCE\" ]; then\n    echo \"✅ Copying GoogleService-Info-kakaoshuttlev2.plist\"\n    cp \"$PLIST_SOURCE\" \"$PLIST_DESTINATION\"\nelse\n    echo \"❌ GoogleService-Info-kakaoshuttlev2.plist not found at $PLIST_SOURCE\"\n    exit 1\nfi\n";
+		};
+		3276CE9B2F0B4DEA00A259F4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KwangdongCustomer/Pods-KwangdongCustomer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KwangdongCustomer/Pods-KwangdongCustomer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KwangdongCustomer/Pods-KwangdongCustomer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3276D6D82F0B5B6E00A259F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KwangdongCustomer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3276D6E32F0B5B6E00A259F4 /* Copy GoogleService-Info (SKBioscience) */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Copy GoogleService-Info (SKBioscience)";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# GoogleService-Info.plist 복사 (SKBioscience)\nPLIST_SOURCE=\"${PROJECT_DIR}/MobiliteasyBase/GoogleService-info/GoogleService-SKBio.plist\"\nPLIST_DESTINATION=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app/GoogleService-Info.plist\"\n\nif [ -f \"$PLIST_SOURCE\" ]; then\n    echo \"✅ Copying GoogleService-SKBio.plist\"\n    cp \"$PLIST_SOURCE\" \"$PLIST_DESTINATION\"\nelse\n    echo \"❌ GoogleService-SKBio.plist not found at $PLIST_SOURCE\"\n    exit 1\nfi\n";
+		};
+		3276D6E42F0B5B6E00A259F4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KwangdongCustomer/Pods-KwangdongCustomer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KwangdongCustomer/Pods-KwangdongCustomer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KwangdongCustomer/Pods-KwangdongCustomer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3277842E2F19DC760098C79D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MobiliteasyBase-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		327784392F19DC760098C79D /* Copy GoogleService-Info (Nol) */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Copy GoogleService-Info (Nol)";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# GoogleService-Info.plist 복사 (Nol)\nPLIST_SOURCE=\"${PROJECT_DIR}/MobiliteasyBase/GoogleService-info/GoogleService-Nol.plist\"\nPLIST_DESTINATION=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app/GoogleService-Info.plist\"\n\nif [ -f \"$PLIST_SOURCE\" ]; then\n    echo \"✅ Copying GoogleService-Info.plist\"\n    cp \"$PLIST_SOURCE\" \"$PLIST_DESTINATION\"\nelse\n    echo \"❌ GoogleService-Nol.plist not found at $PLIST_SOURCE\"\n    exit 1\nfi\n";
+		};
+		3277843A2F19DC760098C79D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MobiliteasyBase/Pods-MobiliteasyBase-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MobiliteasyBase/Pods-MobiliteasyBase-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MobiliteasyBase/Pods-MobiliteasyBase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D3C3202E2A1C87A89117E26 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MobiliteasyBase-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A0AE0BF2EE841D000B18434 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MobiliteasyLite-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A0AE0C92EE841D000B18434 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MobiliteasyLite/Pods-MobiliteasyLite-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MobiliteasyLite/Pods-MobiliteasyLite-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MobiliteasyLite/Pods-MobiliteasyLite-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A0AE0D32EE8456200B18434 /* Copy GoogleService-Info (Lite) */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Copy GoogleService-Info (Lite)";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# GoogleService-Info.plist 복사 (Lite)\nPLIST_SOURCE=\"${PROJECT_DIR}/MobiliteasyBase/GoogleService-info/GoogleService-Info-Lite.plist\"\nPLIST_DESTINATION=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app/GoogleService-Info.plist\"\n\nif [ -f \"$PLIST_SOURCE\" ]; then\n    echo \"✅ Copying GoogleService-Info-Lite.plist\"\n    cp \"$PLIST_SOURCE\" \"$PLIST_DESTINATION\"\nelse\n    echo \"❌ GoogleService-Info-Lite.plist not found at $PLIST_SOURCE\"\n    exit 1\nfi\n";
+		};
+		8A0AE41F2EE8510800B18434 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KwangdongCustomer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A0AE4292EE8510800B18434 /* Copy GoogleService-Info (Kwangdong) */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Copy GoogleService-Info (Kwangdong)";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# GoogleService-Info.plist 복사 (Kwangdong)\nPLIST_SOURCE=\"${PROJECT_DIR}/MobiliteasyBase/GoogleService-info/GoogleService-Info-Kwangdong.plist\"\nPLIST_DESTINATION=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app/GoogleService-Info.plist\"\n\nif [ -f \"$PLIST_SOURCE\" ]; then\n    echo \"✅ Copying GoogleService-Info-Kwangdong.plist\"\n    cp \"$PLIST_SOURCE\" \"$PLIST_DESTINATION\"\nelse\n    echo \"❌ GoogleService-Info-Kwangdong.plist not found at $PLIST_SOURCE\"\n    exit 1\nfi\n";
+		};
+		8A0AE42A2EE8510800B18434 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KwangdongCustomer/Pods-KwangdongCustomer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KwangdongCustomer/Pods-KwangdongCustomer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KwangdongCustomer/Pods-KwangdongCustomer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8ABASE012EF0B1A0000000F3 /* Copy GoogleService-Info (Base) */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Copy GoogleService-Info (Base)";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# GoogleService-Info.plist 복사 (Base)\nPLIST_SOURCE=\"${PROJECT_DIR}/MobiliteasyBase/GoogleService-info/GoogleService-Info.plist\"\nPLIST_DESTINATION=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app/GoogleService-Info.plist\"\n\nif [ -f \"$PLIST_SOURCE\" ]; then\n    echo \"✅ Copying GoogleService-Info.plist\"\n    cp \"$PLIST_SOURCE\" \"$PLIST_DESTINATION\"\nelse\n    echo \"❌ GoogleService-Info.plist not found at $PLIST_SOURCE\"\n    exit 1\nfi\n";
+		};
+		9B7C5C96CE99AB9A02D6F1C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MobiliteasyBase/Pods-MobiliteasyBase-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MobiliteasyBase/Pods-MobiliteasyBase-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MobiliteasyBase/Pods-MobiliteasyBase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3269138B2F15FB3000C59E1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		326F7FDB2F0C9BF70052395C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32754D3B2F0F69160073C1D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3276CE902F0B4DEA00A259F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3276D6D92F0B5B6E00A259F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3277842F2F19DC760098C79D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A0AE0C02EE841D000B18434 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A0AE4202EE8510800B18434 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AB1C8102EE08BA0002A544D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		326913982F15FB3000C59E1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AC6006D71BC8522548DF8BD /* Pods-KwangdongCustomer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconOpenknowl;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MobiliteasyBase/entitlements/Openknowl.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 6;
+				DEVELOPMENT_TEAM = 43PM6UJQAA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MobiliteasyBase/plist/Info-Openknowl.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "서초AICT 통근셔틀";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_NFCReaderUsageDescription = "NFC를 통한 탑승권 발급을 위해 권한이 필요합니다.";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "탑승 시 태그를 위해 블루투스 권한이 필요합니다. 동의 하지 않거나 블루투스가 꺼져 있으면 이용에 제한이 있을 수 있습니다.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "QR코드 인식을 위해 카메라 권한이 필요합니다.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "사용자의 위치정보로 주변 등록된 노선 확인 및 Beacon사용을 위해 권한이 필요합니다.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "사용자의 위치정보로 주변 등록된 노선 확인 및 Beacon사용을 위해 권한이 필요합니다.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "서초AICT 통근셔틀 앱은 사용자에게 맞춤 정보를 제공하기 위해 사용자 정보를 수집하려합니다.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.1.1;
+				OTHER_SWIFT_FLAGS = "$(inherited) -D OPENKNOWL";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scoop.openknowl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		326913992F15FB3000C59E1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 382715DEE36360256F4DA43B /* Pods-KwangdongCustomer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconOpenknowl;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MobiliteasyBase/entitlements/Openknowl.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 6;
+				DEVELOPMENT_TEAM = 43PM6UJQAA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MobiliteasyBase/plist/Info-Openknowl.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "서초AICT 통근셔틀";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_NFCReaderUsageDescription = "NFC를 통한 탑승권 발급을 위해 권한이 필요합니다.";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "탑승 시 태그를 위해 블루투스 권한이 필요합니다. 동의 하지 않거나 블루투스가 꺼져 있으면 이용에 제한이 있을 수 있습니다.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "QR코드 인식을 위해 카메라 권한이 필요합니다.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "사용자의 위치정보로 주변 등록된 노선 확인 및 Beacon사용을 위해 권한이 필요합니다.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "사용자의 위치정보로 주변 등록된 노선 확인 및 Beacon사용을 위해 권한이 필요합니다.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "서초AICT 통근셔틀 앱은 사용자에게 맞춤 정보를 제공하기 위해 사용자 정보를 수집하려합니다.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.1.1;
+				OTHER_SWIFT_FLAGS = "$(inherited) -D OPENKNOWL";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scoop.openknowl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		326F7FE82F0C9BF70052395C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AC6006D71BC8522548DF8BD /* Pods-KwangdongCustomer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconItcen;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MobiliteasyBase/entitlements/Itcen.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 43PM6UJQAA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MobiliteasyBase/plist/Info-Itcen.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "아이티센 통근셔틀\n";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_NFCReaderUsageDescription = "NFC를 통한 탑승권 발급을 위해 권한이 필요합니다.";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "탑승 시 태그를 위해 블루투스 권한이 필요합니다. 동의 하지 않거나 블루투스가 꺼져 있으면 이용에 제한이 있을 수 있습니다.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "QR코드 인식을 위해 카메라 권한이 필요합니다.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "사용자의 위치정보로 주변 등록된 노선 확인 및 Beacon사용을 위해 권한이 필요합니다.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "사용자의 위치정보로 주변 등록된 노선 확인 및 Beacon사용을 위해 권한이 필요합니다.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "아이티센 통근셔틀 앱은 사용자에게 맞춤 정보를 제공하기 위해 사용자 정보를 수집하려합니다.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.1.0;
+				OTHER_SWIFT_FLAGS = "$(inherited) -D ITCEN";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scoop.itcen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		326F7FE92F0C9BF70052395C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 382715DEE36360256F4DA43B /* Pods-KwangdongCustomer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconItcen;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MobiliteasyBase/entitlements/Itcen.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 43PM6UJQAA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MobiliteasyBase/plist/Info-Itcen.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "아이티센 통근셔틀\n";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_NFCReaderUsageDescription = "NFC를 통한 탑승권 발급을 위해 권한이 필요합니다.";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "탑승 시 태그를 위해 블루투스 권한이 필요합니다. 동의 하지 않거나 블루투스가 꺼져 있으면 이용에 제한이 있을 수 있습니다.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "QR코드 인식을 위해 카메라 권한이 필요합니다.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "사용자의 위치정보로 주변 등록된 노선 확인 및 Beacon사용을 위해 권한이 필요합니다.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "사용자의 위치정보로 주변 등록된 노선 확인 및 Beacon사용을 위해 권한이 필요합니다.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "아이티센 통근셔틀 앱은 사용자에게 맞춤 정보를 제공하기 위해 사용자 정보를 수집하려합니다.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.1.0;
+				OTHER_SWIFT_FLAGS = "$(inherited) -D ITCEN";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scoop.itcen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		32754D482F0F69160073C1D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AC6006D71BC8522548DF8BD /* Pods-KwangdongCustomer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconJW;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MobiliteasyBase/entitlements/JW.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 27;
+				DEVELOPMENT_TEAM = 43PM6UJQAA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MobiliteasyBase/plist/Info-JW.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "JW 셔틀버스";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_NFCReaderUsageDescription = "NFC를 통한 탑승권 발급을 위해 권한이 필요합니다.";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "탑승 시 태그를 위해 블루투스 권한이 필요합니다. 동의 하지 않거나 블루투스가 꺼져 있으면 이용에 제한이 있을 수 있습니다.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "QR코드 인식을 위해 카메라 권한이 필요합니다.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "사용자의 위치정보로 주변 등록된 노선 확인 및 Beacon사용을 위해 권한이 필요합니다.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "사용자의 위치정보로 주변 등록된 노선 확인 및 Beacon사용을 위해 권한이 필요합니다.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "JW 셔틀버스 앱은 사용자에게 맞춤 정보를 제공하기 위해 사용자 정보를 수집하려합니다.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.1.0;
+				OTHER_SWIFT_FLAGS = "$(inherited) -D JW";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scoop.JWCustomer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		32754D492F0F69160073C1D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 382715DEE36360256F4DA43B /* Pods-KwangdongCustomer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconJW;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MobiliteasyBase/entitlements/JW.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 27;
+				DEVELOPMENT_TEAM = 43PM6UJQAA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MobiliteasyBase/plist/Info-JW.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "JW 셔틀버스";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_NFCReaderUsageDescription = "NFC를 통한 탑승권 발급을 위해 권한이 필요합니다.";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "탑승 시 태그를 위해 블루투스 권한이 필요합니다. 동의 하지 않거나 블루투스가 꺼져 있으면 이용에 제한이 있을 수 있습니다.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "QR코드 인식을 위해 카메라 권한이 필요합니다.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "사용자의 위치정보로 주변 등록된 노선 확인 및 Beacon사용을 위해 권한이 필요합니다.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "사용자의 위치정보로 주변 등록된 노선 확인 및 Beacon사용을 위해 권한이 필요합니다.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "JW 셔틀버스 앱은 사용자에게 맞춤 정보를 제공하기 위해 사용자 정보를 수집하려합니다.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.1.0;
+				OTHER_SWIFT_FLAGS = "$(inherited) -D JW";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scoop.JWCustomer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		3276CE9D2F0B4DEA00A259F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AC6006D71BC8522548DF8BD /* Pods-KwangdongCustomer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconKakaoShuttleV2;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MobiliteasyBase/entitlements/KakaoShuttleV2.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 35;
+				DEVELOPMENT_TEAM = 43PM6UJQAA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MobiliteasyBase/plist/Info-KakaoShuttleV2.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "카카오 통근셔틀";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_NFCReaderUsageDescription = "NFC를 통한 탑승권 발급을 위해 권한이 필요합니다.";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "탑승 시 태그를 위해 블루투스 권한이 필요합니다. 동의 하지 않거나 블루투스가 꺼져 있으면 이용에 제한이 있을 수 있습니다.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "QR코드 인식을 위해 카메라 권한이 필요합니다.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "사용자의 위치정보로 주변 등록된 노선 확인 및 Beacon사용을 위해 권한이 필요합니다.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "사용자의 위치정보로 주변 등록된 노선 확인 및 Beacon사용을 위해 권한이 필요합니다.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "카카오 임직원 셔틀앱은 사용자에게 맞춤 정보를 제공하기 위해 사용자 정보를 수집하려합니다.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.1.0;
+				OTHER_SWIFT_FLAGS = "$(inherited) -D KAKAO";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scoop.MobiliteasyKakaoShuttleV2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3276CE9E2F0B4DEA00A259F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 382715DEE36360256F4DA43B /* Pods-KwangdongCustomer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconKakaoShuttleV2;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MobiliteasyBase/entitlements/KakaoShuttleV2.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 35;
+				DEVELOPMENT_TEAM = 43PM6UJQAA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MobiliteasyBase/plist/Info-KakaoShuttleV2.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "카카오 통근셔틀";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_NFCReaderUsageDescription = "NFC를 통한 탑승권 발급을 위해 권한이 필요합니다.";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "탑승 시 태그를 위해 블루투스 권한이 필요합니다. 동의 하지 않거나 블루투스가 꺼져 있으면 이용에 제한이 있을 수 있습니다.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "QR코드 인식을 위해 카메라 권한이 필요합니다.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "사용자의 위치정보로 주변 등록된 노선 확인 및 Beacon사용을 위해 권한이 필요합니다.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "사용자의 위치정보로 주변 등록된 노선 확인 및 Beacon사용을 위해 권한이 필요합니다.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "카카오 임직원 셔틀앱은 사용자에게 맞춤 정보를 제공하기 위해 사용자 정보를 수집하려합니다.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.1.0;
+				OTHER_SWIFT_FLAGS = "$(inherited) -D KAKAO";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scoop.MobiliteasyKakaoShuttleV2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		3276D6E62F0B5B6E00A259F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AC6006D71BC8522548DF8BD /* Pods-KwangdongCustomer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconSkbioscience;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MobiliteasyBase/entitlements/SKBio.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 43PM6UJQAA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MobiliteasyBase/plist/Info-SKBioScience.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SK바이오사이언스 통근셔틀\n";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_NFCReaderUsageDescription = "NFC를 통한 탑승권 발급을 위해 권한이 필요합니다.";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "탑승 시 태그를 위해 블루투스 권한이 필요합니다. 동의 하지 않거나 블루투스가 꺼져 있으면 이용에 제한이 있을 수 있습니다.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "QR코드 인식을 위해 카메라 권한이 필요합니다.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "사용자의 위치정보로 주변 등록된 노선 확인 및 Beacon사용을 위해 권한이 필요합니다.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "사용자의 위치정보로 주변 등록된 노선 확인 및 Beacon사용을 위해 권한이 필요합니다.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "SK바이오사이언스 통근셔틀 앱은 사용자에게 맞춤 정보를 제공하기 위해 사용자 정보를 수집하려합니다.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.1.0;
+				OTHER_SWIFT_FLAGS = "$(inherited) -D SKBIO";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scoop.mobiliteasyskbioshuttle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3276D6E72F0B5B6E00A259F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 382715DEE36360256F4DA43B /* Pods-KwangdongCustomer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconSkbioscience;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MobiliteasyBase/entitlements/SKBio.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 43PM6UJQAA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MobiliteasyBase/plist/Info-SKBioScience.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SK바이오사이언스 통근셔틀\n";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_NFCReaderUsageDescription = "NFC를 통한 탑승권 발급을 위해 권한이 필요합니다.";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "탑승 시 태그를 위해 블루투스 권한이 필요합니다. 동의 하지 않거나 블루투스가 꺼져 있으면 이용에 제한이 있을 수 있습니다.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "QR코드 인식을 위해 카메라 권한이 필요합니다.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "사용자의 위치정보로 주변 등록된 노선 확인 및 Beacon사용을 위해 권한이 필요합니다.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "사용자의 위치정보로 주변 등록된 노선 확인 및 Beacon사용을 위해 권한이 필요합니다.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "SK바이오사이언스 통근셔틀 앱은 사용자에게 맞춤 정보를 제공하기 위해 사용자 정보를 수집하려합니다.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.1.0;
+				OTHER_SWIFT_FLAGS = "$(inherited) -D SKBIO";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scoop.mobiliteasyskbioshuttle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		3277843C2F19DC760098C79D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0E89140C6B21939CABF083B /* Pods-MobiliteasyBase.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconNol;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MobiliteasyBase/entitlements/Nol.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 21;
+				DEVELOPMENT_TEAM = 43PM6UJQAA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MobiliteasyBase/plist/Info-Nol.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "놀유니버스 셔틀";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_NFCReaderUsageDescription = "NFC를 통한 탑승권 발급을 위해 권한이 필요합니다.";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "탑승 시 태그를 위해 블루투스 권한이 필요합니다. 동의 하지 않거나 블루투스가 꺼져 있으면 이용에 제한이 있을 수 있습니다.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "QR코드 인식을 위해 카메라 권한이 필요합니다.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "사용자의 위치정보로 주변 등록된 노선 확인 및 Beacon사용을 위해 권한이 필요합니다.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "사용자의 위치정보로 주변 등록된 노선 확인 및 Beacon사용을 위해 권한이 필요합니다.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "놀유니버스 셔틀 앱은 사용자에게 맞춤 정보를 제공하기 위해 사용자 정보를 수집하려합니다.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.1.0;
+				OTHER_SWIFT_FLAGS = "$(inherited) -D NOL";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scoop.NolUniverseCustomer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3277843D2F19DC760098C79D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03CDAD7746252B58BD2CA955 /* Pods-MobiliteasyBase.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconNol;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MobiliteasyBase/entitlements/Nol.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 21;
+				DEVELOPMENT_TEAM = 43PM6UJQAA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MobiliteasyBase/plist/Info-Nol.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "놀유니버스 셔틀";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_NFCReaderUsageDescription = "NFC를 통한 탑승권 발급을 위해 권한이 필요합니다.";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "탑승 시 태그를 위해 블루투스 권한이 필요합니다. 동의 하지 않거나 블루투스가 꺼져 있으면 이용에 제한이 있을 수 있습니다.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "QR코드 인식을 위해 카메라 권한이 필요합니다.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "사용자의 위치정보로 주변 등록된 노선 확인 및 Beacon사용을 위해 권한이 필요합니다.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "사용자의 위치정보로 주변 등록된 노선 확인 및 Beacon사용을 위해 권한이 필요합니다.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "놀유니버스 셔틀 앱은 사용자에게 맞춤 정보를 제공하기 위해 사용자 정보를 수집하려합니다.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.1.0;
+				OTHER_SWIFT_FLAGS = "$(inherited) -D NOL";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scoop.NolUniverseCustomer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		8A0AE0CB2EE841D000B18434 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 699776F432AF33B21B90C799 /* Pods-MobiliteasyLite.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconLite;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MobiliteasyBase/entitlements/MobiliteasyLite.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 14;
+				DEVELOPMENT_TEAM = 43PM6UJQAA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MobiliteasyBase/plist/Info-Lite.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "모빌리티지Lite";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_NFCReaderUsageDescription = "NFC를 통한 탑승권 발급을 위해 권한이 필요합니다.";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "탑승 시 태그를 위해 블루투스 권한이 필요합니다. 동의 하지 않거나 블루투스가 꺼져 있으면 이용에 제한이 있을 수 있습니다.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "QR코드 인식을 위해 카메라 권한이 필요합니다.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "사용자의 위치정보로 주변 등록된 노선 확인 및 Beacon사용을 위해 권한이 필요합니다.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "사용자의 위치정보로 주변 등록된 노선 확인 및 Beacon사용을 위해 권한이 필요합니다.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "모빌리티지Lite 앱은 사용자에게 맞춤 정보를 제공하기 위해 사용자 정보를 수집하려합니다.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.1.0;
+				OTHER_SWIFT_FLAGS = "$(inherited) -D LITE";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scoop.mobiliteasylite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8A0AE0CC2EE841D000B18434 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DB9E36ED1A1446DC379F45F /* Pods-MobiliteasyLite.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconLite;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MobiliteasyBase/entitlements/MobiliteasyLite.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 14;
+				DEVELOPMENT_TEAM = 43PM6UJQAA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MobiliteasyBase/plist/Info-Lite.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "모빌리티지Lite";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_NFCReaderUsageDescription = "NFC를 통한 탑승권 발급을 위해 권한이 필요합니다.";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "탑승 시 태그를 위해 블루투스 권한이 필요합니다. 동의 하지 않거나 블루투스가 꺼져 있으면 이용에 제한이 있을 수 있습니다.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "QR코드 인식을 위해 카메라 권한이 필요합니다.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "사용자의 위치정보로 주변 등록된 노선 확인 및 Beacon사용을 위해 권한이 필요합니다.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "사용자의 위치정보로 주변 등록된 노선 확인 및 Beacon사용을 위해 권한이 필요합니다.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "모빌리티지Lite 앱은 사용자에게 맞춤 정보를 제공하기 위해 사용자 정보를 수집하려합니다.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.1.0;
+				OTHER_SWIFT_FLAGS = "$(inherited) -D LITE";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scoop.mobiliteasylite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		8A0AE42C2EE8510800B18434 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AC6006D71BC8522548DF8BD /* Pods-KwangdongCustomer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconKwangdong;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MobiliteasyBase/entitlements/KwangdongCustomer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 13;
+				DEVELOPMENT_TEAM = 43PM6UJQAA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MobiliteasyBase/plist/Info-Kwangdong.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "광동제약 통근셔틀";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_NFCReaderUsageDescription = "NFC를 통한 탑승권 발급을 위해 권한이 필요합니다.";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "탑승 시 태그를 위해 블루투스 권한이 필요합니다. 동의 하지 않거나 블루투스가 꺼져 있으면 이용에 제한이 있을 수 있습니다.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "QR코드 인식을 위해 카메라 권한이 필요합니다.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "사용자의 위치정보로 주변 등록된 노선 확인 및 Beacon사용을 위해 권한이 필요합니다.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "사용자의 위치정보로 주변 등록된 노선 확인 및 Beacon사용을 위해 권한이 필요합니다.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "광동제약 통근셔틀 앱은 사용자에게 맞춤 정보를 제공하기 위해 사용자 정보를 수집하려합니다.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.1.0;
+				OTHER_SWIFT_FLAGS = "$(inherited) -D KWANGDONG";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scoop.KwangdongCustomer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8A0AE42D2EE8510800B18434 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 382715DEE36360256F4DA43B /* Pods-KwangdongCustomer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconKwangdong;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MobiliteasyBase/entitlements/KwangdongCustomer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 13;
+				DEVELOPMENT_TEAM = 43PM6UJQAA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MobiliteasyBase/plist/Info-Kwangdong.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "광동제약 통근셔틀";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_NFCReaderUsageDescription = "NFC를 통한 탑승권 발급을 위해 권한이 필요합니다.";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "탑승 시 태그를 위해 블루투스 권한이 필요합니다. 동의 하지 않거나 블루투스가 꺼져 있으면 이용에 제한이 있을 수 있습니다.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "QR코드 인식을 위해 카메라 권한이 필요합니다.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "사용자의 위치정보로 주변 등록된 노선 확인 및 Beacon사용을 위해 권한이 필요합니다.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "사용자의 위치정보로 주변 등록된 노선 확인 및 Beacon사용을 위해 권한이 필요합니다.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "광동제약 통근셔틀 앱은 사용자에게 맞춤 정보를 제공하기 위해 사용자 정보를 수집하려합니다.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.1.0;
+				OTHER_SWIFT_FLAGS = "$(inherited) -D KWANGDONG";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scoop.KwangdongCustomer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		8AB1C81D2EE08BA2002A544D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 43PM6UJQAA;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8AB1C81E2EE08BA2002A544D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 43PM6UJQAA;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8AB1C8202EE08BA2002A544D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0E89140C6B21939CABF083B /* Pods-MobiliteasyBase.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MobiliteasyBase/entitlements/MobiliteasyBase.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 21;
+				DEVELOPMENT_TEAM = 43PM6UJQAA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MobiliteasyBase/plist/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "놀유니버스 셔틀";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_NFCReaderUsageDescription = "NFC를 통한 탑승권 발급을 위해 권한이 필요합니다.";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "탑승 시 태그를 위해 블루투스 권한이 필요합니다. 동의 하지 않거나 블루투스가 꺼져 있으면 이용에 제한이 있을 수 있습니다.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "QR코드 인식을 위해 카메라 권한이 필요합니다.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "사용자의 위치정보로 주변 등록된 노선 확인 및 Beacon사용을 위해 권한이 필요합니다.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "사용자의 위치정보로 주변 등록된 노선 확인 및 Beacon사용을 위해 권한이 필요합니다.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "놀유니버스 셔틀 앱은 사용자에게 맞춤 정보를 제공하기 위해 사용자 정보를 수집하려합니다.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scoop.mobiliteasybase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8AB1C8212EE08BA2002A544D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03CDAD7746252B58BD2CA955 /* Pods-MobiliteasyBase.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MobiliteasyBase/entitlements/MobiliteasyBase.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 21;
+				DEVELOPMENT_TEAM = 43PM6UJQAA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MobiliteasyBase/plist/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "놀유니버스 셔틀";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_NFCReaderUsageDescription = "NFC를 통한 탑승권 발급을 위해 권한이 필요합니다.";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "탑승 시 태그를 위해 블루투스 권한이 필요합니다. 동의 하지 않거나 블루투스가 꺼져 있으면 이용에 제한이 있을 수 있습니다.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "QR코드 인식을 위해 카메라 권한이 필요합니다.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "사용자의 위치정보로 주변 등록된 노선 확인 및 Beacon사용을 위해 권한이 필요합니다.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "사용자의 위치정보로 주변 등록된 노선 확인 및 Beacon사용을 위해 권한이 필요합니다.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "놀유니버스 셔틀 앱은 사용자에게 맞춤 정보를 제공하기 위해 사용자 정보를 수집하려합니다.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scoop.mobiliteasybase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		326913972F15FB3000C59E1E /* Build configuration list for PBXNativeTarget "openknowl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				326913982F15FB3000C59E1E /* Debug */,
+				326913992F15FB3000C59E1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		326F7FE72F0C9BF70052395C /* Build configuration list for PBXNativeTarget "Itcen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				326F7FE82F0C9BF70052395C /* Debug */,
+				326F7FE92F0C9BF70052395C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32754D472F0F69160073C1D7 /* Build configuration list for PBXNativeTarget "Jw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32754D482F0F69160073C1D7 /* Debug */,
+				32754D492F0F69160073C1D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3276CE9C2F0B4DEA00A259F4 /* Build configuration list for PBXNativeTarget "KakaoShuttleV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3276CE9D2F0B4DEA00A259F4 /* Debug */,
+				3276CE9E2F0B4DEA00A259F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3276D6E52F0B5B6E00A259F4 /* Build configuration list for PBXNativeTarget "SKBioscience" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3276D6E62F0B5B6E00A259F4 /* Debug */,
+				3276D6E72F0B5B6E00A259F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3277843B2F19DC760098C79D /* Build configuration list for PBXNativeTarget "Nol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3277843C2F19DC760098C79D /* Debug */,
+				3277843D2F19DC760098C79D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A0AE0CA2EE841D000B18434 /* Build configuration list for PBXNativeTarget "MobiliteasyLite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A0AE0CB2EE841D000B18434 /* Debug */,
+				8A0AE0CC2EE841D000B18434 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A0AE42B2EE8510800B18434 /* Build configuration list for PBXNativeTarget "KwangdongCustomer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A0AE42C2EE8510800B18434 /* Debug */,
+				8A0AE42D2EE8510800B18434 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AB1C80F2EE08BA0002A544D /* Build configuration list for PBXProject "MobiliteasyBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AB1C81D2EE08BA2002A544D /* Debug */,
+				8AB1C81E2EE08BA2002A544D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AB1C81F2EE08BA2002A544D /* Build configuration list for PBXNativeTarget "MobiliteasyBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AB1C8202EE08BA2002A544D /* Debug */,
+				8AB1C8212EE08BA2002A544D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		326913852F15FB3000C59E1E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.6.0;
+			};
+		};
+		326913892F15FB3000C59E1E /* XCRemoteSwiftPackageReference "DeviceKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devicekit/DeviceKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		326F7FD52F0C9BF70052395C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.6.0;
+			};
+		};
+		326F7FD92F0C9BF70052395C /* XCRemoteSwiftPackageReference "DeviceKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devicekit/DeviceKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		32754D352F0F69160073C1D7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.6.0;
+			};
+		};
+		32754D392F0F69160073C1D7 /* XCRemoteSwiftPackageReference "DeviceKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devicekit/DeviceKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		3276CE8A2F0B4DEA00A259F4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.6.0;
+			};
+		};
+		3276CE8E2F0B4DEA00A259F4 /* XCRemoteSwiftPackageReference "DeviceKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devicekit/DeviceKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		3276D6D32F0B5B6E00A259F4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.6.0;
+			};
+		};
+		3276D6D72F0B5B6E00A259F4 /* XCRemoteSwiftPackageReference "DeviceKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devicekit/DeviceKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		327784292F19DC760098C79D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.6.0;
+			};
+		};
+		3277842D2F19DC760098C79D /* XCRemoteSwiftPackageReference "DeviceKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devicekit/DeviceKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		8A0AE0BA2EE841D000B18434 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.6.0;
+			};
+		};
+		8A0AE0BE2EE841D000B18434 /* XCRemoteSwiftPackageReference "DeviceKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devicekit/DeviceKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		8A0AE41A2EE8510800B18434 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.6.0;
+			};
+		};
+		8A0AE41E2EE8510800B18434 /* XCRemoteSwiftPackageReference "DeviceKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devicekit/DeviceKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		8AB1C8782EE08DCB002A544D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.6.0;
+			};
+		};
+		8AD4D0902EF0AAA0000000F0 /* XCRemoteSwiftPackageReference "DeviceKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devicekit/DeviceKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		326913842F15FB3000C59E1E /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 326913852F15FB3000C59E1E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		326913862F15FB3000C59E1E /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 326913852F15FB3000C59E1E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		326913872F15FB3000C59E1E /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 326913852F15FB3000C59E1E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		326913882F15FB3000C59E1E /* DeviceKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 326913892F15FB3000C59E1E /* XCRemoteSwiftPackageReference "DeviceKit" */;
+			productName = DeviceKit;
+		};
+		326F7FD42F0C9BF70052395C /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 326F7FD52F0C9BF70052395C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		326F7FD62F0C9BF70052395C /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 326F7FD52F0C9BF70052395C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		326F7FD72F0C9BF70052395C /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 326F7FD52F0C9BF70052395C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		326F7FD82F0C9BF70052395C /* DeviceKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 326F7FD92F0C9BF70052395C /* XCRemoteSwiftPackageReference "DeviceKit" */;
+			productName = DeviceKit;
+		};
+		32754D342F0F69160073C1D7 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 32754D352F0F69160073C1D7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		32754D362F0F69160073C1D7 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 32754D352F0F69160073C1D7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		32754D372F0F69160073C1D7 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 32754D352F0F69160073C1D7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		32754D382F0F69160073C1D7 /* DeviceKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 32754D392F0F69160073C1D7 /* XCRemoteSwiftPackageReference "DeviceKit" */;
+			productName = DeviceKit;
+		};
+		3276CE892F0B4DEA00A259F4 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3276CE8A2F0B4DEA00A259F4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		3276CE8B2F0B4DEA00A259F4 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3276CE8A2F0B4DEA00A259F4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		3276CE8C2F0B4DEA00A259F4 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3276CE8A2F0B4DEA00A259F4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		3276CE8D2F0B4DEA00A259F4 /* DeviceKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3276CE8E2F0B4DEA00A259F4 /* XCRemoteSwiftPackageReference "DeviceKit" */;
+			productName = DeviceKit;
+		};
+		3276D6D22F0B5B6E00A259F4 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3276D6D32F0B5B6E00A259F4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		3276D6D42F0B5B6E00A259F4 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3276D6D32F0B5B6E00A259F4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		3276D6D52F0B5B6E00A259F4 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3276D6D32F0B5B6E00A259F4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		3276D6D62F0B5B6E00A259F4 /* DeviceKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3276D6D72F0B5B6E00A259F4 /* XCRemoteSwiftPackageReference "DeviceKit" */;
+			productName = DeviceKit;
+		};
+		327784282F19DC760098C79D /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 327784292F19DC760098C79D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		3277842A2F19DC760098C79D /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 327784292F19DC760098C79D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		3277842B2F19DC760098C79D /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 327784292F19DC760098C79D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		3277842C2F19DC760098C79D /* DeviceKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3277842D2F19DC760098C79D /* XCRemoteSwiftPackageReference "DeviceKit" */;
+			productName = DeviceKit;
+		};
+		8A0AE0B92EE841D000B18434 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8A0AE0BA2EE841D000B18434 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		8A0AE0BB2EE841D000B18434 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8A0AE0BA2EE841D000B18434 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		8A0AE0BC2EE841D000B18434 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8A0AE0BA2EE841D000B18434 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		8A0AE0BD2EE841D000B18434 /* DeviceKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8A0AE0BE2EE841D000B18434 /* XCRemoteSwiftPackageReference "DeviceKit" */;
+			productName = DeviceKit;
+		};
+		8A0AE4192EE8510800B18434 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8A0AE41A2EE8510800B18434 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		8A0AE41B2EE8510800B18434 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8A0AE41A2EE8510800B18434 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		8A0AE41C2EE8510800B18434 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8A0AE41A2EE8510800B18434 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		8A0AE41D2EE8510800B18434 /* DeviceKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8A0AE41E2EE8510800B18434 /* XCRemoteSwiftPackageReference "DeviceKit" */;
+			productName = DeviceKit;
+		};
+		8AB1C8792EE08DCB002A544D /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8AB1C8782EE08DCB002A544D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		8AB1C87B2EE08DCB002A544D /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8AB1C8782EE08DCB002A544D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		8AB1C87D2EE08DCB002A544D /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8AB1C8782EE08DCB002A544D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		8AD4D0912EF0AAA0000000F1 /* DeviceKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8AD4D0902EF0AAA0000000F0 /* XCRemoteSwiftPackageReference "DeviceKit" */;
+			productName = DeviceKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 8AB1C80C2EE08BA0002A544D /* Project object */;
+}

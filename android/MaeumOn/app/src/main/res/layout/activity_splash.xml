@@ -4,51 +4,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <!-- 배경 PNG 이미지 -->
+    <!-- 배경 PNG 이미지 (로고+텍스트 포함) -->
     <ImageView
         android:id="@+id/splashImage"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:contentDescription="@string/description_splash_background"
-        android:scaleType="fitXY"
+        android:scaleType="centerCrop"
         android:src="@drawable/img_splash" />
-
-    <!-- 검은색 그라데이션 overlay -->
-    <View
-        android:id="@+id/gradientOverlay"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:background="@drawable/splash_gradient_overlay"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHeight_percent="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <!-- 앱 로고 SVG -->
-    <ImageView
-        android:id="@+id/logoImage"
-        android:layout_width="209dp"
-        android:layout_height="32dp"
-        android:layout_marginTop="170.5dp"
-        android:contentDescription="@string/description_app_logo_horizontal"
-        android:src="@drawable/splash_logo"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <!-- 안내 텍스트 -->
-    <TextView
-        android:id="@+id/appName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="35dp"
-        android:text="@string/notice_splash"
-        android:textAppearance="@style/TextAppearance.Pretendard.600"
-        android:textColor="@android:color/white"
-        android:textSize="15sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
 
     <FrameLayout
         android:id="@+id/fragment_view"

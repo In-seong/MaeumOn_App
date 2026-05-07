@@ -1,0 +1,839 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D3DA85CA5EEFBCFEE6511FE /* Pods_MobiliteasyBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 276084509BB26B304F12CCBE /* Pods_MobiliteasyBase.framework */; };
+		8A0AE0C22EE841D000B18434 /* DeviceKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8A0AE0BD2EE841D000B18434 /* DeviceKit */; };
+		8A0AE0C32EE841D000B18434 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AB1CA862EE08FDC002A544D /* CoreLocation.framework */; };
+		8A0AE0C42EE841D000B18434 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 8A0AE0BC2EE841D000B18434 /* FirebaseMessaging */; };
+		8A0AE0C52EE841D000B18434 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 8A0AE0BB2EE841D000B18434 /* FirebaseCore */; };
+		8A0AE0C62EE841D000B18434 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 8A0AE0B92EE841D000B18434 /* FirebaseAnalytics */; };
+		8A0AE0C72EE841D000B18434 /* Pods_MobiliteasyBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 276084509BB26B304F12CCBE /* Pods_MobiliteasyBase.framework */; };
+		8AB1C87A2EE08DCB002A544D /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 8AB1C8792EE08DCB002A544D /* FirebaseAnalytics */; };
+		8AB1C87C2EE08DCB002A544D /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 8AB1C87B2EE08DCB002A544D /* FirebaseCore */; };
+		8AB1C87E2EE08DCB002A544D /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 8AB1C87D2EE08DCB002A544D /* FirebaseMessaging */; };
+		8AB1CA872EE08FDC002A544D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AB1CA862EE08FDC002A544D /* CoreLocation.framework */; };
+		8AD4D0922EF0AAA0000000F2 /* DeviceKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8AD4D0912EF0AAA0000000F1 /* DeviceKit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03CDAD7746252B58BD2CA955 /* Pods-MobiliteasyBase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobiliteasyBase.release.xcconfig"; path = "Target Support Files/Pods-MobiliteasyBase/Pods-MobiliteasyBase.release.xcconfig"; sourceTree = "<group>"; };
+		276084509BB26B304F12CCBE /* Pods_MobiliteasyBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobiliteasyBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A0AE0CD2EE841D000B18434 /* MobiliteasyLite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobiliteasyLite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A0AE0CF2EE841D000B18434 /* MobiliteasyBase copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "MobiliteasyBase copy-Info.plist"; path = "/Users/scoopdeveloper/Project/mobiliteasy_webview/Base/iOS/MobiliteasyBase/MobiliteasyBase copy-Info.plist"; sourceTree = "<absolute>"; };
+		8AB1C8142EE08BA0002A544D /* MobiliteasyBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobiliteasyBase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AB1CA862EE08FDC002A544D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B0E89140C6B21939CABF083B /* Pods-MobiliteasyBase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobiliteasyBase.debug.xcconfig"; path = "Target Support Files/Pods-MobiliteasyBase/Pods-MobiliteasyBase.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		8A0AE0CE2EE841D000B18434 /* Exceptions for "MobiliteasyBase" folder in "MobiliteasyLite" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				AppDelegate.swift,
+				Assets.xcassets,
+				ContentView.swift,
+				Core/AppState.swift,
+				Core/Bluetooth/BeaconManager.swift,
+				Core/Bluetooth/BleScanner.swift,
+				Core/Bluetooth/Bluetooth.swift,
+				Core/Bluetooth/PerpheralManager.swift,
+				"Core/GPS/ LocationManager.swift",
+				Core/NFC/NFCReader.swift,
+				Core/Permission/PermissionManager.swift,
+				"Extension/Text+Font.swift",
+				"Extension/UIImage+.swift",
+				"Extension/View+.swift",
+				Font/AnBo_Regular.ttf,
+				Font/GodoB.otf,
+				"Font/KCC-Hanbit.otf",
+				"Font/NanumSquare-Bold.otf",
+				"Font/Pretendard-Bold.otf",
+				"Font/Pretendard-Medium.otf",
+				"Font/Pretendard-Regular.otf",
+				"Font/Pretendard-SemiBold.otf",
+				"GoogleService-Info-Lite.plist",
+				"GoogleService-Info.plist",
+				Info.plist,
+				MLKit/BarcodeScannerView.swift,
+				MobiliteasyBaseApp.swift,
+				PrivacyInfo.xcprivacy,
+				Utils/WebView.swift,
+				Views/MainView.swift,
+				"Views/Modal+Toast/BasicModal/BasicModalContainer.swift",
+				"Views/Modal+Toast/BasicModal/BasicModalManager.swift",
+				"Views/Modal+Toast/BottomSheetModal/BottomSheetContainer.swift",
+				"Views/Modal+Toast/BottomSheetModal/BottomSheetManager.swift",
+				"Views/Modal+Toast/Toast/ToastContainer.swift",
+				"Views/Modal+Toast/Toast/ToastManager.swift",
+				Views/Splash/PermissionCheckView.swift,
+				Views/Splash/SplashView.swift,
+				Views/UI/Button/RoundedButton.swift,
+				Views/UI/Modal/BottomSheet/BottomSheet.swift,
+				Views/WebViewReloadAlertView.swift,
+			);
+			target = 8A0AE0B82EE841D000B18434 /* MobiliteasyLite */;
+		};
+		8AB1C8772EE08CD0002A544D /* Exceptions for "MobiliteasyBase" folder in "MobiliteasyBase" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"GoogleService-Info-Lite.plist",
+				Info.plist,
+			);
+			target = 8AB1C8132EE08BA0002A544D /* MobiliteasyBase */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		8AB1C8162EE08BA0002A544D /* MobiliteasyBase */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				8AB1C8772EE08CD0002A544D /* Exceptions for "MobiliteasyBase" folder in "MobiliteasyBase" target */,
+				8A0AE0CE2EE841D000B18434 /* Exceptions for "MobiliteasyBase" folder in "MobiliteasyLite" target */,
+			);
+			path = MobiliteasyBase;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A0AE0C12EE841D000B18434 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A0AE0C22EE841D000B18434 /* DeviceKit in Frameworks */,
+				8A0AE0C32EE841D000B18434 /* CoreLocation.framework in Frameworks */,
+				8A0AE0C42EE841D000B18434 /* FirebaseMessaging in Frameworks */,
+				8A0AE0C52EE841D000B18434 /* FirebaseCore in Frameworks */,
+				8A0AE0C62EE841D000B18434 /* FirebaseAnalytics in Frameworks */,
+				8A0AE0C72EE841D000B18434 /* Pods_MobiliteasyBase.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AB1C8112EE08BA0002A544D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AD4D0922EF0AAA0000000F2 /* DeviceKit in Frameworks */,
+				8AB1CA872EE08FDC002A544D /* CoreLocation.framework in Frameworks */,
+				8AB1C87E2EE08DCB002A544D /* FirebaseMessaging in Frameworks */,
+				8AB1C87C2EE08DCB002A544D /* FirebaseCore in Frameworks */,
+				8AB1C87A2EE08DCB002A544D /* FirebaseAnalytics in Frameworks */,
+				4D3DA85CA5EEFBCFEE6511FE /* Pods_MobiliteasyBase.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4538E34C51B9FE787A4ACCE7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B0E89140C6B21939CABF083B /* Pods-MobiliteasyBase.debug.xcconfig */,
+				03CDAD7746252B58BD2CA955 /* Pods-MobiliteasyBase.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8AB1C80B2EE08BA0002A544D = {
+			isa = PBXGroup;
+			children = (
+				8AB1C8162EE08BA0002A544D /* MobiliteasyBase */,
+				8AB1CA852EE08FDC002A544D /* Frameworks */,
+				8AB1C8152EE08BA0002A544D /* Products */,
+				4538E34C51B9FE787A4ACCE7 /* Pods */,
+				8A0AE0CF2EE841D000B18434 /* MobiliteasyBase copy-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		8AB1C8152EE08BA0002A544D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AB1C8142EE08BA0002A544D /* MobiliteasyBase.app */,
+				8A0AE0CD2EE841D000B18434 /* MobiliteasyLite.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8AB1CA852EE08FDC002A544D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8AB1CA862EE08FDC002A544D /* CoreLocation.framework */,
+				276084509BB26B304F12CCBE /* Pods_MobiliteasyBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A0AE0B82EE841D000B18434 /* MobiliteasyLite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A0AE0CA2EE841D000B18434 /* Build configuration list for PBXNativeTarget "MobiliteasyLite" */;
+			buildPhases = (
+				8A0AE0BF2EE841D000B18434 /* [CP] Check Pods Manifest.lock */,
+				8A0AE0C02EE841D000B18434 /* Sources */,
+				8A0AE0C12EE841D000B18434 /* Frameworks */,
+				8A0AE0C82EE841D000B18434 /* Resources */,
+				8A0AE0C92EE841D000B18434 /* [CP] Embed Pods Frameworks */,
+				8A0AE0D32EE8456200B18434 /* Run Script */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				8AB1C8162EE08BA0002A544D /* MobiliteasyBase */,
+			);
+			name = MobiliteasyLite;
+			packageProductDependencies = (
+				8A0AE0B92EE841D000B18434 /* FirebaseAnalytics */,
+				8A0AE0BB2EE841D000B18434 /* FirebaseCore */,
+				8A0AE0BC2EE841D000B18434 /* FirebaseMessaging */,
+				8A0AE0BD2EE841D000B18434 /* DeviceKit */,
+			);
+			productName = MobiliteasyBase;
+			productReference = 8A0AE0CD2EE841D000B18434 /* MobiliteasyLite.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8AB1C8132EE08BA0002A544D /* MobiliteasyBase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AB1C81F2EE08BA2002A544D /* Build configuration list for PBXNativeTarget "MobiliteasyBase" */;
+			buildPhases = (
+				3D3C3202E2A1C87A89117E26 /* [CP] Check Pods Manifest.lock */,
+				8AB1C8102EE08BA0002A544D /* Sources */,
+				8AB1C8112EE08BA0002A544D /* Frameworks */,
+				8AB1C8122EE08BA0002A544D /* Resources */,
+				9B7C5C96CE99AB9A02D6F1C5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				8AB1C8162EE08BA0002A544D /* MobiliteasyBase */,
+			);
+			name = MobiliteasyBase;
+			packageProductDependencies = (
+				8AB1C8792EE08DCB002A544D /* FirebaseAnalytics */,
+				8AB1C87B2EE08DCB002A544D /* FirebaseCore */,
+				8AB1C87D2EE08DCB002A544D /* FirebaseMessaging */,
+				8AD4D0912EF0AAA0000000F1 /* DeviceKit */,
+			);
+			productName = MobiliteasyBase;
+			productReference = 8AB1C8142EE08BA0002A544D /* MobiliteasyBase.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8AB1C80C2EE08BA0002A544D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2610;
+				LastUpgradeCheck = 2610;
+				TargetAttributes = {
+					8AB1C8132EE08BA0002A544D = {
+						CreatedOnToolsVersion = 26.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 8AB1C80F2EE08BA0002A544D /* Build configuration list for PBXProject "MobiliteasyBase" */;
+			developmentRegion = ko;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				ko,
+			);
+			mainGroup = 8AB1C80B2EE08BA0002A544D;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				8AB1C8782EE08DCB002A544D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				8AD4D0902EF0AAA0000000F0 /* XCRemoteSwiftPackageReference "DeviceKit" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8AB1C8152EE08BA0002A544D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8AB1C8132EE08BA0002A544D /* MobiliteasyBase */,
+				8A0AE0B82EE841D000B18434 /* MobiliteasyLite */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A0AE0C82EE841D000B18434 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AB1C8122EE08BA0002A544D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3D3C3202E2A1C87A89117E26 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MobiliteasyBase-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A0AE0BF2EE841D000B18434 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MobiliteasyBase-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A0AE0C92EE841D000B18434 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MobiliteasyBase/Pods-MobiliteasyBase-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MobiliteasyBase/Pods-MobiliteasyBase-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MobiliteasyBase/Pods-MobiliteasyBase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A0AE0D32EE8456200B18434 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n";
+		};
+		9B7C5C96CE99AB9A02D6F1C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MobiliteasyBase/Pods-MobiliteasyBase-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MobiliteasyBase/Pods-MobiliteasyBase-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MobiliteasyBase/Pods-MobiliteasyBase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A0AE0C02EE841D000B18434 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AB1C8102EE08BA0002A544D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8A0AE0CB2EE841D000B18434 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0E89140C6B21939CABF083B /* Pods-MobiliteasyBase.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconLite;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MobiliteasyBase/MobiliteasyLite.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 20;
+				DEVELOPMENT_TEAM = 43PM6UJQAA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MobiliteasyBase/Info-Lite.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "모빌리티지 라이트";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_NFCReaderUsageDescription = "NFC를 통한 탑승권 발급을 위해 권한이 필요합니다.";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "탑승 시 태그를 위해 블루투스 권한이 필요합니다. 동의 하지 않거나 블루투스가 꺼져 있으면 이용에 제한이 있을 수 있습니다.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "QR코드 인식을 위해 카메라 권한이 필요합니다.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "사용자의 위치정보로 주변 등록된 노선 확인 및 Beacon사용을 위해 권한이 필요합니다.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "사용자의 위치정보로 주변 등록된 노선 확인 및 Beacon사용을 위해 권한이 필요합니다.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "놀유니버스 셔틀 앱은 사용자에게 맞춤 정보를 제공하기 위해 사용자 정보를 수집하려합니다.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0.0;
+				OTHER_SWIFT_FLAGS = "$(inherited) -D Lite";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scoop.mobiliteasylite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8A0AE0CC2EE841D000B18434 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03CDAD7746252B58BD2CA955 /* Pods-MobiliteasyBase.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconLite;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MobiliteasyBase/MobiliteasyLite.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 20;
+				DEVELOPMENT_TEAM = 43PM6UJQAA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MobiliteasyBase/Info-Lite.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "모빌리티지 라이트";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_NFCReaderUsageDescription = "NFC를 통한 탑승권 발급을 위해 권한이 필요합니다.";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "탑승 시 태그를 위해 블루투스 권한이 필요합니다. 동의 하지 않거나 블루투스가 꺼져 있으면 이용에 제한이 있을 수 있습니다.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "QR코드 인식을 위해 카메라 권한이 필요합니다.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "사용자의 위치정보로 주변 등록된 노선 확인 및 Beacon사용을 위해 권한이 필요합니다.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "사용자의 위치정보로 주변 등록된 노선 확인 및 Beacon사용을 위해 권한이 필요합니다.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "놀유니버스 셔틀 앱은 사용자에게 맞춤 정보를 제공하기 위해 사용자 정보를 수집하려합니다.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0.0;
+				OTHER_SWIFT_FLAGS = "$(inherited) -D Lite";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scoop.mobiliteasylite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		8AB1C81D2EE08BA2002A544D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 43PM6UJQAA;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8AB1C81E2EE08BA2002A544D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 43PM6UJQAA;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8AB1C8202EE08BA2002A544D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0E89140C6B21939CABF083B /* Pods-MobiliteasyBase.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MobiliteasyBase/MobiliteasyBase.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 20;
+				DEVELOPMENT_TEAM = 43PM6UJQAA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MobiliteasyBase/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "놀유니버스 셔틀";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_NFCReaderUsageDescription = "NFC를 통한 탑승권 발급을 위해 권한이 필요합니다.";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "탑승 시 태그를 위해 블루투스 권한이 필요합니다. 동의 하지 않거나 블루투스가 꺼져 있으면 이용에 제한이 있을 수 있습니다.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "QR코드 인식을 위해 카메라 권한이 필요합니다.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "사용자의 위치정보로 주변 등록된 노선 확인 및 Beacon사용을 위해 권한이 필요합니다.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "사용자의 위치정보로 주변 등록된 노선 확인 및 Beacon사용을 위해 권한이 필요합니다.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "놀유니버스 셔틀 앱은 사용자에게 맞춤 정보를 제공하기 위해 사용자 정보를 수집하려합니다.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scoop.mobiliteasybase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8AB1C8212EE08BA2002A544D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03CDAD7746252B58BD2CA955 /* Pods-MobiliteasyBase.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MobiliteasyBase/MobiliteasyBase.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 20;
+				DEVELOPMENT_TEAM = 43PM6UJQAA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MobiliteasyBase/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "놀유니버스 셔틀";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_NFCReaderUsageDescription = "NFC를 통한 탑승권 발급을 위해 권한이 필요합니다.";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "탑승 시 태그를 위해 블루투스 권한이 필요합니다. 동의 하지 않거나 블루투스가 꺼져 있으면 이용에 제한이 있을 수 있습니다.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "QR코드 인식을 위해 카메라 권한이 필요합니다.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "사용자의 위치정보로 주변 등록된 노선 확인 및 Beacon사용을 위해 권한이 필요합니다.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "사용자의 위치정보로 주변 등록된 노선 확인 및 Beacon사용을 위해 권한이 필요합니다.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "놀유니버스 셔틀 앱은 사용자에게 맞춤 정보를 제공하기 위해 사용자 정보를 수집하려합니다.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scoop.mobiliteasybase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A0AE0CA2EE841D000B18434 /* Build configuration list for PBXNativeTarget "MobiliteasyLite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A0AE0CB2EE841D000B18434 /* Debug */,
+				8A0AE0CC2EE841D000B18434 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AB1C80F2EE08BA0002A544D /* Build configuration list for PBXProject "MobiliteasyBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AB1C81D2EE08BA2002A544D /* Debug */,
+				8AB1C81E2EE08BA2002A544D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AB1C81F2EE08BA2002A544D /* Build configuration list for PBXNativeTarget "MobiliteasyBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AB1C8202EE08BA2002A544D /* Debug */,
+				8AB1C8212EE08BA2002A544D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8A0AE0BA2EE841D000B18434 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.6.0;
+			};
+		};
+		8A0AE0BE2EE841D000B18434 /* XCRemoteSwiftPackageReference "DeviceKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devicekit/DeviceKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		8AB1C8782EE08DCB002A544D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.6.0;
+			};
+		};
+		8AD4D0902EF0AAA0000000F0 /* XCRemoteSwiftPackageReference "DeviceKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devicekit/DeviceKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8A0AE0B92EE841D000B18434 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8A0AE0BA2EE841D000B18434 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		8A0AE0BB2EE841D000B18434 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8A0AE0BA2EE841D000B18434 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		8A0AE0BC2EE841D000B18434 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8A0AE0BA2EE841D000B18434 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		8A0AE0BD2EE841D000B18434 /* DeviceKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8A0AE0BE2EE841D000B18434 /* XCRemoteSwiftPackageReference "DeviceKit" */;
+			productName = DeviceKit;
+		};
+		8AB1C8792EE08DCB002A544D /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8AB1C8782EE08DCB002A544D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		8AB1C87B2EE08DCB002A544D /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8AB1C8782EE08DCB002A544D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		8AB1C87D2EE08DCB002A544D /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8AB1C8782EE08DCB002A544D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		8AD4D0912EF0AAA0000000F1 /* DeviceKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8AD4D0902EF0AAA0000000F0 /* XCRemoteSwiftPackageReference "DeviceKit" */;
+			productName = DeviceKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 8AB1C80C2EE08BA0002A544D /* Project object */;
+}

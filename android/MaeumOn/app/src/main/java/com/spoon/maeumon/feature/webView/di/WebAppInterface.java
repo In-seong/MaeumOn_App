@@ -31,7 +31,7 @@ import com.google.android.gms.location.LocationRequest;
 import com.google.android.gms.location.LocationResult;
 import com.google.android.gms.location.LocationServices;
 import com.google.android.gms.location.Priority;
-// import com.google.firebase.messaging.FirebaseMessaging; // Firebase 나중에 추가
+import com.google.firebase.messaging.FirebaseMessaging;
 import com.spoon.maeumon.BuildConfig;
 import com.spoon.maeumon.feature.ble.BLEScanService;
 import com.spoon.maeumon.feature.data.BLEData;
@@ -238,20 +238,16 @@ public class WebAppInterface {
          if (token != null) {
             sendTokenToWebView(token);
          } else {
-            // Firebase 나중에 추가
-            // 토큰 새로 가져오기
-            // FirebaseMessaging.getInstance().getToken()
-            //         .addOnCompleteListener(task -> {
-            //            if (task.isSuccessful() && task.getResult() != null) {
-            //               String newToken = task.getResult();
-            //               // SharedPreferences에 저장
-            //               prefs.edit().putString("fcm_token", newToken).apply();
-            //               sendTokenToWebView(newToken);
-            //            } else {
-            //               sendNoTokenToWebView();
-            //            }
-            //         });
-            sendNoTokenToWebView(); // 임시: Firebase 없이 처리
+            FirebaseMessaging.getInstance().getToken()
+                    .addOnCompleteListener(task -> {
+                       if (task.isSuccessful() && task.getResult() != null) {
+                          String newToken = task.getResult();
+                          prefs.edit().putString("fcm_token", newToken).apply();
+                          sendTokenToWebView(newToken);
+                       } else {
+                          sendNoTokenToWebView();
+                       }
+                    });
          }
       });
    }
