@@ -3,34 +3,29 @@
     xmlns:tools="http://schemas.android.com/tools">
     <!-- 웹뷰 -->
     <uses-permission android:name="android.permission.INTERNET" />
-    <!-- 위치 -->
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- 위치: 사용하지 않으므로 라이브러리가 추가하는 권한도 제거 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" tools:node="remove" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" tools:node="remove" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION" tools:node="remove" />
 
-    <uses-feature
-        android:name="android.hardware.location.gps"
-        android:required="false" />
-    <uses-feature android:name="android.hardware.location.network" />
-    <!-- nfc -->
-    <uses-permission android:name="android.permission.NFC" />
-    <uses-feature
-        android:name="android.hardware.nfc"
-        android:required="false" />
-    <!-- ble -->
-    <uses-permission android:name="android.permission.BLUETOOTH" />
-    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
-    <uses-permission
-        android:name="android.permission.BLUETOOTH_SCAN"
-        tools:targetApi="s" />
-    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-feature android:name="android.hardware.location.gps" tools:node="remove" />
+    <uses-feature android:name="android.hardware.location.network" tools:node="remove" />
+    <!-- nfc: 사용하지 않으므로 제거 -->
+    <uses-permission android:name="android.permission.NFC" tools:node="remove" />
+    <uses-feature android:name="android.hardware.nfc" tools:node="remove" />
+    <!-- ble: 사용하지 않으므로 제거 -->
+    <uses-permission android:name="android.permission.BLUETOOTH" tools:node="remove" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" tools:node="remove" />
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" tools:node="remove" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" tools:node="remove" />
 
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" /> <!-- 전화 걸기위한 권한 -->
+    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
     <uses-permission android:name="android.permission.CALL_PHONE" />
 
     <uses-feature
         android:name="android.hardware.telephony"
-        android:required="true" />
+        android:required="false" />
 
     <!-- qr -->
     <uses-permission android:name="android.permission.CAMERA" />
@@ -43,6 +38,7 @@
     <application
         android:name="com.spoon.maeumon.MyApp"
         android:allowBackup="false"
+        android:largeHeap="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
@@ -78,21 +74,24 @@
             </intent-filter>
         </activity>
 
-        <!--        <activity android:name=".ui.SplashActivity" />-->
         <activity
             android:name="com.spoon.maeumon.feature.webView.ui.WebViewActivity"
             android:configChanges="orientation|screenSize|screenLayout|smallestScreenSize"
-            android:launchMode="singleInstance"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="adjustResize"
             android:exported="true">
-
-            <meta-data
-                android:name="android.nfc.action.TECH_DISCOVERED"
-                android:resource="@xml/nfc_tech_filter" />
         </activity>
         <activity android:name="com.spoon.maeumon.feature.common.ui.BaseActivity" />
         <activity
             android:name="com.spoon.maeumon.feature.qr.ui.QrActivity"
             android:launchMode="singleTop" />
+
+        <!-- 비콘 라이브러리 컴포넌트 제거 (사용하지 않음) -->
+        <service android:name="org.altbeacon.beacon.service.BeaconService" tools:node="remove" />
+        <service android:name="org.altbeacon.beacon.BeaconIntentProcessor" tools:node="remove" />
+        <service android:name="org.altbeacon.beacon.service.ScanJob" tools:node="remove" />
+        <service android:name="org.altbeacon.bluetooth.BluetoothTestJob" tools:node="remove" />
+        <receiver android:name="org.altbeacon.beacon.startup.StartupBroadcastReceiver" tools:node="remove" />
 
         <!-- 카메라 촬영 파일 공유용 FileProvider -->
         <provider
